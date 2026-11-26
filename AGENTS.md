@@ -7,11 +7,12 @@
 
 ## Yetki
 - PLANLAMA: Açık onay olmadan uygulama kodu, scaffold, paket kurulumu, build, deployment başlatma.
-- Accepted bağlayıcı; Proposed öneri; Pending çözülmemiş; Superseded eski karar. Çelişkiyi görünür kıl, en yeni onaylı ADR'yi esas al.
+- Accepted bağlayıcı; Accepted (koşullu) tercih onaylı ancak teknik doğrulama geçmeden üretim bağımlılığı olarak kesinleşmez; Proposed öneri; Pending çözülmemiş; Superseded eski karar. Çelişkiyi görünür kıl, en yeni onaylı ADR'yi esas al.
 - Framework, veri modeli, finansal semantik, güvenlik, kapsam ve paket seçimini sessizce değiştirme; ADR ve onay iste.
 - İngilizce kod/teknik tanımlayıcı, Türkçe doküman. Küçük, okunabilir feature modülleri; boş katman yok.
 
 ## Uygulama aşamasındaki sınırlar
+- ADR-0002: feature-first modular monolith, pragmatic Clean Architecture, ports & adapters, pnpm ve üç ortak paket bağlayıcı. ADR-0009 uyumluluk kapısını geçmeden paket sürümü kesinleştirme; başarısızlıkta ADR ile onay iste.
 - Saf finansal domain RN, Expo, SQLite, Zustand, native SDK'dan bağımsız. SQLite tek finansal veri kaynağı hedefi. Yazımlar application use case üzerinden atomik ve idempotent; widget/analitik doğrudan yazamaz.
 - Binary float ile para hesaplama yok; doğrulanmış minor units/decimal. Transfer ve kart borç ödemesi gider değil, plan gerçekleşmiş gider değil.
 - OTP, tam kart numarası, ham banka mesajı, anahtar, gerçek finansal kayıt ve hassas log repo/telemetri/buluta gitmez. Sentetik/maskeli fixture.

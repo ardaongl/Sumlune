@@ -10,4 +10,4 @@
 | Kararlar | [Karar defteri](execution/DECISION_REGISTER.md), [ADR dizini](decisions/INDEX.md) |
 | Yürütme | [Roadmap](execution/ROADMAP.md), [Backlog](execution/BACKLOG.md), [Durum](execution/CURRENT_STATE.md), [Handoff](execution/SESSION_HANDOFF.md), [Riskler](execution/KNOWN_ISSUES.md) |
 
-Accepted = açık kullanıcı onayı; Proposed = teknik öneri; Pending = çözülmemiş; Superseded = eski karar. Teknik taslaklar geliştirme izni değildir.
+Accepted = açık kullanıcı onayı; Accepted (koşullu) = tercih onaylı, teknik doğrulama bekliyor; Proposed = teknik öneri; Pending = çözülmemiş; Superseded = eski karar. Teknik taslaklar geliştirme izni değildir.

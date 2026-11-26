@@ -1,6 +1,6 @@
 # Teknoloji yığını
 
-Framework Accepted; aşağıdaki paket tercihleri Proposed. Sürüm/lisans/New Architecture/SDK uyumluluğu başlangıç spike'ında kontrol edilir. Paket kurulmadı.
+Framework Accepted; aşağıdaki yığın teknik uyumluluk doğrulaması şartıyla Accepted (ADR-0009). Tek tek sürümler ve alternatifler henüz kesinleşmedi. Sürüm/lisans/New Architecture/SDK uyumluluğu başlangıç spike'ında kontrol edilir. Paket kurulmadı; kodlama yetkisi yok.
 
 | Alan | Tercih |
 |---|---|
@@ -31,3 +31,11 @@ SQLite tek kaynak; cache/Zustand yerine geçmez. Config plugin/prebuild ile öze
 - https://docs.expo.dev/guides/monorepos/
 - https://orm.drizzle.team/docs/connect-expo-sqlite
 - https://reactnative.dev/docs/headless-js-android
+
+## Doğrulama kapısı (Pending)
+- SDK/RN/React/Node/pnpm uyum matrisi, lisanslar, bağımlılık bakım durumu ve lockfile.
+- Monorepo autolinking, custom development build, native target/config plugin ve Android/iOS build.
+- SQLCipher + Drizzle migration, kesin para serileştirmesi ve anahtar/lifecycle erişimi.
+- Android capture izinleri/queue/arka plan, iOS widget extension ve Android Glance, Expo Widgets gerçek destek matrisi.
+- Native bildirim, biyometri, güvenli storage ve grafik/gesture entegrasyonu.
+- Başarısız doğrulamada bulguyu ve alternatifini ADR ile ürün sahibine sun; sessiz paket değişikliği yok. Supabase aday olarak kalır; canlı bulut/E2EE tasarımı onaylı değildir. BigInt/Decimal.js kesin persistence temsilini belirlemez.

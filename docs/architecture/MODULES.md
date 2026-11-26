@@ -1,4 +1,4 @@
-# Modül haritası — Proposed
+# Modül haritası — Accepted (ana sınırlar)
 
 ```text
 Sumlune/
@@ -23,7 +23,7 @@ Sumlune/
   pnpm-workspace.yaml
   tsconfig.base.json
 ```
-Bu gelecek scaffold taslağıdır, oluşturulmadı. Eski ledger-* paket isimleri sumlune-* olarak önerilir.
+Bu gelecek scaffold planıdır, oluşturulmadı. Üç ortak paket ve pnpm monorepo onaylıdır; ayrıntılı feature klasörleri ve paket iç yapıları ihtiyaca göre tasarlanır. Eski ledger-* isimleri yerine sumlune-* kullanılır.
 
 | Modüller | Sorumluluk |
 |---|---|

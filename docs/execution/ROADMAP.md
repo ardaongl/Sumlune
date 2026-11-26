@@ -4,9 +4,9 @@
 |---|---|---|
 | 01 | Product Planning | Accepted kapsam |
 | 02 | Design System | Accepted yön; token/ekran Proposed |
-| 03 | Technical Architecture | Framework Accepted; ayrıntılar Proposed |
-| 04 | Repository Initialization | README commit doğrulandı; baseline doküman teslimi |
-| 05 | Database & Financial Engine | Sıradaki teknik karar |
+| 03 | Technical Architecture | Accepted; stack koşullu, doğrulama Pending |
+| 04 | Repository Initialization | Done; 42 Markdown baseline |
+| 05 | Database & Financial Engine | In progress (PLAN-02) |
 | 06 | Smart Capture Architecture | Pending |
 | 07 | Native Widget Architecture | Pending |
 | 08 | Security & Cloud Sync | Pending |

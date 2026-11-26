@@ -1,6 +1,6 @@
 # Karar kayıt defteri
 
-Accepted yalnız açık onay; Proposed teknik öneri; Pending çözülmemiş; Superseded eski karar. Baseline: 2026-11-26.
+Accepted yalnız açık onay; Accepted (koşullu) = tercih onaylı, teknik doğrulama bekliyor; Proposed teknik öneri; Pending çözülmemiş; Superseded eski karar. Baseline: 2026-11-26.
 
 | Karar | Durum | Kaynak |
 |---|---|---|
@@ -12,9 +12,10 @@ Accepted yalnız açık onay; Proposed teknik öneri; Pending çözülmemiş; Su
 | Local-first + opsiyonel bulut | Accepted | ADR-0003 |
 | Pure Apple | Accepted | ADR-0004 |
 | Kodlama yok, kararlar repo üzerinden | Accepted | ADR-0007 |
-| Modular monolith, 3 paket, pnpm, feature-first | Proposed | ADR-0002 |
+| Feature-first modular monolith, Pragmatic Clean Architecture, Ports & Adapters, 3 paket, pnpm | Accepted | ADR-0002 |
 | Double-entry | Proposed | ADR-0006 |
-| SQLCipher, Drizzle, Zustand, TanStack Query, native stack | Proposed | TECH_STACK |
+| Önerilen teknoloji yığını (SQLCipher, Drizzle, Zustand, TanStack Query, native stack dahil) | Accepted (koşullu) | ADR-0009 / TECH_STACK |
+| Paket sürümleri, platform uyumu, Expo Widgets desteği, Supabase nihai seçimi | Pending | TECH_STACK / ADR-0009 |
 | Tokenlar, ekran haritası, Inter | Proposed | DESIGN_SYSTEM |
 | İngilizce kod, main, Conventional Commits | Proposed | GIT_WORKFLOW |
 | Capture ve widget sözleşmeleri | Pending | SMART_CAPTURE / WIDGETS |
