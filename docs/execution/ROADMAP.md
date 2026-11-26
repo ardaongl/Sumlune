@@ -12,7 +12,7 @@
 | 08 | Security & Cloud Sync | Pending |
 | 09 | Screen Specifications | Pending |
 | 10 | Testing & Quality Strategy | Pending |
-| 11 | Codex Integration Plan | Pending |
+| 11 | Codex Integration Plan | Pending; faz bazlı Markdown blueprint ve ilerleme kontrolü zorunlu |
 | 12 | Implementation | Açık onaya kadar yasak |
 
 ## Dört limit reseti — önerilen hedef, garanti değil
@@ -22,3 +22,5 @@
 4. Native Experience & Quality: altı widget, güvenlik, backup/export, test, performans, Android APK/iOS build hazırlığı. Widget/capture spike ilk reset; güvenlik temelleri baştan. Bulut implementation ayrı.
 
 Reset kapasitesi/son kullanma tarihleri kesin değil. Her reset sonunda çalışan checkpoint; doğrulanabilir dikey dilim, yarım özellik değil. Reset tüketmek amaç değil.
+
+Her faz için ayrı, doğrudan Codex'e verilebilir goal prompt/blueprint hazırlanacak. Faz sayısı reset sayısına eşit olmak zorunda değil. [Codex yürütme protokolü](CODEX_EXECUTION_PROTOCOL.md): görev bağımlılıkları, doğrulama kapısı, ilerleme kontrolü ve kullanıcı onayı. Blueprint'ler teknik kararlar tamamlanınca yazılır.

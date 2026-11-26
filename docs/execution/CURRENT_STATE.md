@@ -9,6 +9,8 @@ PLAN-01 tamamlandı: Feature-first Modular Monolith, Pragmatic Clean Architectur
 
 **Aktif:** PLAN-02: kayıt modeli ve invariants tamamlandı; Money & Currency Model (minor units, kesin temsil, FX ve yuvarlama) ve ayrıntılı hesap semantiği sırada. Sonra PLAN-03 ERD/kolon/constraint/migration; PLAN-04 recurrence, kart/taksit/borç/tahmin.
 
+Ürün sahibi, teknik kararlar tamamlandığında her faz için ayrı Markdown goal prompt/blueprint ve ilerleme kontrol sistemi istedi. Yürütme gereksinimi [CODEX_EXECUTION_PROTOCOL](CODEX_EXECUTION_PROTOCOL.md) içinde; nihai faz dosyaları PLAN-09'da hazırlanacak.
+
 Uygulama kodu, scaffold, paket kurulumu, build ve cihaz testi yok. Private repo hedefi geçerli; görünürlük değişikliği bu oturum kapsamı değildir.
 
 [Backlog](BACKLOG.md) · [Kararlar](DECISION_REGISTER.md) · [Handoff](SESSION_HANDOFF.md).

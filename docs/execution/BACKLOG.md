@@ -11,7 +11,7 @@
 | PLAN-06 | Widget snapshot/deep link sözleşmesi | PLAN-02 | Pending |
 | PLAN-07 | Security, backup, cloud sync | PLAN-03/05/06 | Pending |
 | PLAN-08 | Ekran ve kabul kriterleri | PLAN-02/04 | Pending |
-| PLAN-09 | Test planı, görev bağımlılıkları, Codex handoff | PLAN-01..08 | Pending |
+| PLAN-09 | Test planı, görev bağımlılıkları, faz başına ayrıntılı Markdown goal prompt/blueprint, ilerleme kontrolü ve Codex handoff | PLAN-01..08 | Pending |
 | DEV-00 | SDK uyumu ve native/SQLCipher spike | Açık kodlama onayı | Not authorized |
 | DEV-01 | Dört reset implementation | DEV-00 + plan | Not authorized |
 

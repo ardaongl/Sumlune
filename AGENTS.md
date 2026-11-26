@@ -20,5 +20,9 @@
 - Pure Apple ortak tokenları, erişilebilirlik; iOS sistem fontu Android'e kopyalanmaz.
 - Gerçek veriyi silen reset/migration veya history rewrite izinsiz yapılmaz.
 
+## Faz bazlı geliştirme (geliştirme izninden sonra)
+- [Codex yürütme protokolü](docs/execution/CODEX_EXECUTION_PROTOCOL.md) uyarınca ayrı Markdown faz blueprint'lerini ve ilerleme kontrolünü kullan. Nihai blueprint'ler PLAN-09'da yazılacak; onlardan önce kodlama yok.
+- Kullanıcı tarafından verilen aktif fazın kapsamını aşma; doğrulanmamış işi tamamlandı olarak işaretleme, fazlar arası sapma veya engeli kaydet.
+
 ## Görev sonu
 Kapsamı küçük tut. İlgili testleri çalıştır, çalıştırılmayanları açıkça belirt. CURRENT_STATE, BACKLOG, SESSION_HANDOFF, gerekiyorsa ADR güncelle. Conventional Commits; kullanıcı yetkisi doğrultusunda commit/push. Doğrulama olmadan tamamlandı deme. Bkz. [Done](docs/engineering/DEFINITION_OF_DONE.md).

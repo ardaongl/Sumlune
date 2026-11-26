@@ -12,6 +12,7 @@ Accepted yalnız açık onay; Accepted (koşullu) = tercih onaylı, teknik doğr
 | Local-first + opsiyonel bulut | Accepted | ADR-0003 |
 | Pure Apple | Accepted | ADR-0004 |
 | Kodlama yok, kararlar repo üzerinden | Accepted | ADR-0007 |
+| Teknik kararlar tamamlandıktan sonra her geliştirme fazına ayrı Markdown goal prompt/blueprint ve ilerleme kontrol sistemi | Accepted | CODEX_EXECUTION_PROTOCOL |
 | Feature-first modular monolith, Pragmatic Clean Architecture, Ports & Adapters, 3 paket, pnpm | Accepted | ADR-0002 |
 | Lightweight double-entry ve finansal invariants | Accepted (ürün sahibi seçimi devretti) | ADR-0006 |
 | Bütçe ilkesi: en küçük doğru çözüm, gereksiz altyapı yok; onaylı kapsam korunur | Accepted (yönlendirme) | ADR-0006 |
