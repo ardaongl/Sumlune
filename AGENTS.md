@@ -12,6 +12,7 @@
 - İngilizce kod/teknik tanımlayıcı, Türkçe doküman. Küçük, okunabilir feature modülleri; boş katman yok.
 
 ## Uygulama aşamasındaki sınırlar
+- ADR-0006: lightweight double-entry ve finansal invariants bağlayıcı. Bütçe için en küçük doğru çözümü seç; muhasebe UI, event sourcing/CQRS, ayrı finans backend'i veya gereksiz abstraction ekleme. Onaylı kapsam, veri güvenliği ve testler maliyet adına kaldırılmaz.
 - ADR-0002: feature-first modular monolith, pragmatic Clean Architecture, ports & adapters, pnpm ve üç ortak paket bağlayıcı. ADR-0009 uyumluluk kapısını geçmeden paket sürümü kesinleştirme; başarısızlıkta ADR ile onay iste.
 - Saf finansal domain RN, Expo, SQLite, Zustand, native SDK'dan bağımsız. SQLite tek finansal veri kaynağı hedefi. Yazımlar application use case üzerinden atomik ve idempotent; widget/analitik doğrudan yazamaz.
 - Binary float ile para hesaplama yok; doğrulanmış minor units/decimal. Transfer ve kart borç ödemesi gider değil, plan gerçekleşmiş gider değil.

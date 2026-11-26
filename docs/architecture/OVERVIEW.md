@@ -14,4 +14,4 @@ flowchart TD
 ```
 Domain saf iş kuralları; application orkestrasyon; presentation ekran/hook/UI state; infrastructure persistence, native, network. Tek uygulama, tek finansal veri kaynağı. Microservice, gereksiz abstraction veya her feature için ayrı workspace yok. Mobile composition root DI ve adapter wiring. Native olay yakalar, ortak motor kayıt oluşturur; widget snapshot okur. Bulut kapalıyken temel deneyim devam eder. İlk spike: native lifecycle, SQLCipher, widget target ve background erişimi. Henüz test edilmedi.
 
-Finansal double-entry ve kesin veri modeli Proposed/Pending; bir sonraki karar PLAN-02. Mimari onayı kodlama izni değildir.
+Lightweight double-entry Accepted (ADR-0006); kesin para ve veri modeli Pending (PLAN-02/03). Kısıtlı bütçe için en küçük doğru çözüm, harici finans backend'i/event sourcing/CQRS yok. Mimari onayı kodlama izni değildir.

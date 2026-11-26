@@ -13,7 +13,8 @@ Accepted yalnız açık onay; Accepted (koşullu) = tercih onaylı, teknik doğr
 | Pure Apple | Accepted | ADR-0004 |
 | Kodlama yok, kararlar repo üzerinden | Accepted | ADR-0007 |
 | Feature-first modular monolith, Pragmatic Clean Architecture, Ports & Adapters, 3 paket, pnpm | Accepted | ADR-0002 |
-| Double-entry | Proposed | ADR-0006 |
+| Lightweight double-entry ve finansal invariants | Accepted (ürün sahibi seçimi devretti) | ADR-0006 |
+| Bütçe ilkesi: en küçük doğru çözüm, gereksiz altyapı yok; onaylı kapsam korunur | Accepted (yönlendirme) | ADR-0006 |
 | Önerilen teknoloji yığını (SQLCipher, Drizzle, Zustand, TanStack Query, native stack dahil) | Accepted (koşullu) | ADR-0009 / TECH_STACK |
 | Paket sürümleri, platform uyumu, Expo Widgets desteği, Supabase nihai seçimi | Pending | TECH_STACK / ADR-0009 |
 | Tokenlar, ekran haritası, Inter | Proposed | DESIGN_SYSTEM |

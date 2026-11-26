@@ -1,6 +1,6 @@
 # Veritabanı taslağı — Proposed
 
-Tek şifreli SQLite, Drizzle migration ve DAO/repository. Gerçek şema henüz tasarlanmadı.
+Tek şifreli SQLite, Drizzle migration ve DAO/repository (koşullu stack). ADR-0006 ile lightweight double-entry çekirdeği (accounts, journal_entries, postings) Accepted; diğer aday tablolar, kesin kolonlar ve ilişkiler Proposed. Üç tablo tüm ürün değil, yalnız kayıt çekirdeğidir. Gerçek şema henüz tasarlanmadı. Gereksiz muhasebe tabloları/event store yok; gereken planlama, capture ve diğer kapsam tabloları ayrı tasarlanacak.
 
 | Alan | Aday tablolar |
 |---|---|
