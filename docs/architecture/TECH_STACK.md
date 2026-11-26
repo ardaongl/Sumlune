@@ -1,0 +1,33 @@
+# Teknoloji yığını
+
+Framework Accepted; aşağıdaki paket tercihleri Proposed. Sürüm/lisans/New Architecture/SDK uyumluluğu başlangıç spike'ında kontrol edilir. Paket kurulmadı.
+
+| Alan | Tercih |
+|---|---|
+| Mobil | React Native + Expo development builds; Expo Go yeterli değil |
+| Dil / workspace | TypeScript strict, pnpm workspaces; Nx/Turborepo yok |
+| Navigasyon | Expo Router |
+| UI | Sumlune UI kit, StyleSheet; Expo UI/native gerektiğinde |
+| State | Zustand UI state, TanStack Query repository sorguları, React hooks |
+| Form/validation | React Hook Form, Zod |
+| DB | expo-sqlite + SQLCipher, Drizzle ORM/migrations |
+| Para | BigInt/Decimal.js; wire ve SQLite temsil kararı bekliyor |
+| Native | Expo Modules API, Kotlin, Swift; Android WorkManager/Headless JS spike |
+| Widget | SwiftUI/WidgetKit, Jetpack Glance; Expo Widgets desteği doğrulanacak |
+| Bildirim | expo-notifications |
+| Güvenlik | Expo SecureStore, Expo Local Authentication, OS Keystore/Keychain |
+| UI araçları | Reanimated, Gesture Handler, React Native SVG, Expo Haptics, Lucide React Native |
+| i18n | i18next (TR/EN) |
+| Bulut | Supabase aday; E2EE ayrı tasarlanır |
+| Test | Vitest, Jest + React Native Testing Library, Maestro, native test |
+| CI/build | GitHub Actions, Expo EAS veya local builds |
+
+SQLite tek kaynak; cache/Zustand yerine geçmez. Config plugin/prebuild ile özel native kaynakların korunması ayrı karar. Expo Widgets iki platformu destekliyor varsayılmaz.
+
+## Referanslar (sonraki doğrulama)
+- https://docs.expo.dev/develop/development-builds/introduction/
+- https://docs.expo.dev/modules/overview/
+- https://docs.expo.dev/versions/latest/sdk/sqlite/
+- https://docs.expo.dev/guides/monorepos/
+- https://orm.drizzle.team/docs/connect-expo-sqlite
+- https://reactnative.dev/docs/headless-js-android
