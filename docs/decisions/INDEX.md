@@ -10,3 +10,4 @@
 - [ADR-0008 — Eski Flutter yaklaşımı](ADR-0008-flutter-superseded.md) — Superseded
 - [ADR-0009 — Koşullu teknoloji yığını](ADR-0009-conditional-tech-stack.md) — Accepted (koşullu)
 - [ADR-0010 — Money & Currency / Hibrit kur](ADR-0010-money-currency.md) — Accepted
+- [ADR-0011 — Database Architecture ve ortak ödeme altyapısı](ADR-0011-database-architecture.md) — Accepted

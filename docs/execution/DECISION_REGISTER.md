@@ -22,8 +22,10 @@ Accepted yalnız açık onay; Accepted (koşullu) = tercih onaylı, teknik doğr
 | İngilizce kod, main, Conventional Commits | Proposed | GIT_WORKFLOW |
 | Capture ve widget sözleşmeleri | Pending | SMART_CAPTURE / WIDGETS |
 | Money & Currency: minor units, güvenli INTEGER, TRY varsayılan, ISO 4217, değiştirilebilir raporlama, tarihsel kur, hibrit ücretsiz/manuel | Accepted | ADR-0010 / MONEY_CURRENCY |
-| Kesin FX posting, rounding/wire sözleşmesi, kur sağlayıcısı | Proposed / Pending | MONEY_CURRENCY |
-| Çekirdek ve artımlı veritabanı şeması | Proposed | DATABASE / PLAN-03 |
+| FX clearing, HALF_UP, canonical integer-string wire, immutable rate snapshot | Accepted (devredilen teknik seçim) | ADR-0011 / MONEY_CURRENCY |
+| Ücretsiz kur sağlayıcısı ve adapter doğrulaması | Pending | MONEY_CURRENCY |
+| Tek SQLite, çekirdek şema, artımlı migration, ortak Payment Engine | Accepted | ADR-0011 / DATABASE |
+| Payment/recurrence/taksit/borç detayları | Proposed | PAYMENT_RECURRENCE / PLAN-04 |
 | E2EE, backup, conflict | Pending | SECURITY / SYNC |
 | Flutter ve eski Dart stack | Superseded | ADR-0008 |
 
