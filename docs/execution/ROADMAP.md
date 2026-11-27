@@ -15,11 +15,12 @@
 | 11 | Codex Integration Plan | Done (ADR-0019, 13 blueprint, progress) |
 | 12 | Implementation | Açık onaya kadar yasak |
 
-## Dört limit reseti — önerilen hedef, garanti değil
-1. Core Finance: bootstrap + spike, temel UI, DB/engine, hesap/işlem/şablon, TR/EN; ilk çalışan Android build hedefi.
-2. Financial Planning: abonelik, taksit, borç, ödeme, recurrence, takvim, bildirim.
-3. Smart Finance: Android capture, otomasyon, bütçe, analitik, tahmin, birikim; kritik widget erken teslim değerlendirilecek.
-4. Native Experience & Quality: altı widget, güvenlik, backup/export, test, performans, Android APK/iOS build hazırlığı. Widget/capture spike ilk reset; güvenlik temelleri baştan. Bulut backup ve CAS sync ayrı ardışık opsiyonel geliştirme fazları; core release blocker değil (ADR-0016).
+## Dört limit reseti — MASTER_PLAN ile uyumlu hedef, garanti değil
+1. PHASE-00..03: teknik doğrulama, güvenli temel, finansal çekirdek, manuel işlemler.
+2. PHASE-04..05: ödeme/recurrence ve finansal zekâ.
+3. PHASE-06..07: şifreli yedek/restore/export, Android banka push.
+4. PHASE-08..09: altı widget ve yerel release/quality.
+PHASE-10 izinli SMS, PHASE-11 cloud backup, PHASE-12 CAS sync ayrı yetki ve kapasiteye bağlı; core local release blocker değil. iOS ayrı doğrulama/release lane. Gerçek veri PHASE-06 recovery gate sonrası.
 
 Reset kapasitesi/son kullanma tarihleri kesin değil. Her reset sonunda çalışan checkpoint; doğrulanabilir dikey dilim, yarım özellik değil. Reset tüketmek amaç değil.
 

@@ -1,5 +1,5 @@
 # Codex başlangıç ve devam rehberi
-Kodlama yetkisi henüz No. Güncel main'i local clone/pull (dirty worktree varsa önce kullanıcı değişikliklerini koru); repo private hedefi, public risk R-01; gerçek veri/secret hiçbir zaman Git'e. Uygun yerel Codex workspace olarak repo root aç. İlk yeni oturumda yalnız şu talimatı ver:
+Kodlama yetkisi henüz No. Güncel main'i local clone/pull (dirty worktree varsa önce kullanıcı değişikliklerini koru); repo 2026-11-28 kontrolünde public, private hedefi ve risk R-01; geliştirmeden önce kullanıcı Settings üzerinden private yapmayı değerlendirmeli; gerçek veri/secret hiçbir zaman Git'e. Uygun yerel Codex workspace olarak repo root aç. İlk yeni oturumda yalnız şu talimatı ver:
 
 > Sumlune repository'sinde AGENTS.md ve docs/execution/START_HERE.md oku. docs/execution/phases/PHASE-00-TECHNICAL-VALIDATION.md goal prompt'unu çalıştırmanı açıkça onaylıyorum. Yalnız bu fazı uygula; PROGRESS ve kanıtları güncelle, kalite kapısından sonra dur ve benim onayımı bekle. Ücretli işlem, deployment veya başka faz yok.
 

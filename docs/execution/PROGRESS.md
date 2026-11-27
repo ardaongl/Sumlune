@@ -1,6 +1,6 @@
 # PROGRESS — single source of implementation state
-**Coding authorized:** No. **Active phase:** None. **Next candidate:** PHASE-00. **Verified tasks:** 0/64. **Accepted phases:** 0/13. **All quality evidence:** Not run. Planning approval != implementation. 
-State rules: Not started / In progress / Blocked / Verified (task); phase Not started / In progress / Blocked / Ready for review / Accepted. User acceptance only. Optional/gated/target unavailable ayrı scope status; not-started/blocked sayılır, Passed değil. Yüzde yalnız Verified tasks / total (ayrı local 00..09 ve overall). Quality group Passed ancak tüm in-scope mandatory subchecks geçtiğinde; Partial/Not run/Blocked/Failed. P0/P1 ve zorunlu evidence eksikse gate blocked. User explicit acceptance sonrası phase Accepted; tested code SHA + evidence commit ayrı. 
+**Coding authorized:** No. **Active phase:** None. **Next candidate:** PHASE-00. **Verified tasks:** 0/64 overall; 0/51 local PHASE-00..09. **Accepted phases:** 0/13. **All quality evidence:** Not run. Planning approval != implementation. 
+State rules: Not started / In progress / Blocked / Verified (task); phase Not started / In progress / Blocked / Ready for review / Accepted. User acceptance only. Optional/gated/target unavailable ayrı scope status; not-started/blocked sayılır, Passed değil. Yüzde yalnız Verified tasks / total (51 local 00..09, 64 overall); bu elle güncellenen Markdown register'dır, otomatik test/CI tracker henüz yok. Quality group Passed ancak tüm in-scope mandatory subchecks geçtiğinde; Partial/Not run/Blocked/Failed. P0/P1 ve zorunlu evidence eksikse gate blocked. User explicit acceptance sonrası phase Accepted; tested code SHA + evidence commit ayrı. 
 ## Phases
 | Phase | Status | Verified / total | Code SHA | Evidence | Owner acceptance |
 |---|---|---|---|---|---|
@@ -139,5 +139,8 @@ State rules: Not started / In progress / Blocked / Verified (task); phase Not st
 | Multi-device sync | Not started | CAS/RLS gate |
 ## Evidence log
 Evidence files docs/execution/evidence/PHASE-XX.md use EVIDENCE_TEMPLATE.md. Each task records exact test/code SHA and evidence reference, no secrets/raw/sensitive screenshots. No self-certification; if code changed, invalidate impacted evidence and retest. Recompute summaries from register; never increment counts manually without status transition. 
+## Resume and issue control
+Tek aktif task ID, son verified code SHA, next task ID, evidence-only commit varsa ayrı referans, izinli phase ve owner acceptance kaydı SESSION_HANDOFF ile uyumlu. İleri fazın doğrudan önkoşulu blocked ise genel phase acceptance yok; yalnız kullanıcı açıkça bağımsız ve scope-specific checkpoint/phase yetkisi verirse bağımsız işler yapılabilir. Bloke capability/phase statüsü değişmez, full local release claim yapılmaz. 
+
 ## Issues and change control
 P0/P1: stop affected work, issue ID + reproduction + Q ID + owner decision if scope changes. P2/P3 tracked with review. No issue currently proven because no implementation. Current authorized action: none. Next: user explicitly authorize PHASE-00.
