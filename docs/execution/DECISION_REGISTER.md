@@ -22,14 +22,15 @@ Accepted yalnız açık onay; Accepted (koşullu) = tercih onaylı, teknik doğr
 | İngilizce kod, main, Conventional Commits | Proposed | GIT_WORKFLOW |
 | Smart Capture notification-first, encrypted queue, foreground drain, gated SMS/review, Akbank ve Ziraat ilk hedef | Accepted | ADR-0014 / SMART_CAPTURE |
 | Banka fixture, izin ve cihaz doğrulaması | Pending | SMART_CAPTURE / DEV-00 |
-| Widget snapshot, renderer, privacy ve deep link | Proposed | WIDGETS / PLAN-06 |
+| Altı widget, ortak snapshot v1, privacy default masked, deep link, small/medium | Accepted | ADR-0015 / WIDGETS |
+| Widget renderer, SDK ve cihaz doğrulaması | Pending | ADR-0015 / DEV-00 |
 | Money & Currency: minor units, güvenli INTEGER, TRY varsayılan, ISO 4217, değiştirilebilir raporlama, tarihsel kur, hibrit ücretsiz/manuel | Accepted | ADR-0010 / MONEY_CURRENCY |
 | FX clearing, HALF_UP, canonical integer-string wire, immutable rate snapshot | Accepted (devredilen teknik seçim) | ADR-0011 / MONEY_CURRENCY |
 | Ücretsiz kur sağlayıcısı ve adapter doğrulaması | Pending | MONEY_CURRENCY |
 | Tek SQLite, çekirdek şema, artımlı migration, ortak Payment Engine | Accepted | ADR-0011 / DATABASE |
 | Payment/recurrence/taksit/borç detayları, 90 günlük horizon, kısmi ödeme | Accepted | ADR-0012 / PAYMENT_RECURRENCE |
 | Bütçe, birikim, safe-to-spend, nakit tahmini ve analiz | Accepted | ADR-0013 / FINANCIAL_INTELLIGENCE |
-| E2EE, backup, conflict | Pending | SECURITY / SYNC |
+| Yerel güvenlik, portable encrypted backup ve optional cloud sync | Proposed | SECURITY / SYNC / PLAN-07 |
 | Flutter ve eski Dart stack | Superseded | ADR-0008 |
 
 [ADR dizini](../decisions/INDEX.md). Yeni karar kabul edilince ilgili ADR ve tüketen dokümanlar birlikte güncellenir; eski karar silinmez, superseded işaretlenir.

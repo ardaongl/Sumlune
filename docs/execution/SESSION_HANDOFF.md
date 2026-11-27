@@ -1,9 +1,9 @@
 # Oturum devri
 
-2026-11-28 — PLAN-05 onayı, PLAN-06 başlangıcı. Önceki commit e6d430c7f093bd6797b6449d4cb228746de989ba. Kodlama yetkisi yok.
+2026-11-28 — PLAN-06 onayı, PLAN-07 başlangıcı. Önceki commit 16b576d06c7b00756bc496f20c9264beb84f7d67. Kodlama yetkisi yok.
 
-ADR-0014 Accepted: Akbank ve Ziraat ilk entegrasyon hedefleri (kapsam kararı, destek kanıtı değil). Notification-first, Kotlin native parser, structured encrypted queue, 7 gün/500 event, foreground drain, explicit push expense auto, SMS variant permission/policy gate ve review-only. Weak match inceleme; raw içerik saklanmaz. Hesap mapping, retention, idempotency, undo, native lifecycle ve security açık detayları SMART_CAPTURE içinde. Cihaz ve gerçek banka fixture testi yok.
+ADR-0015 Accepted: altı home-screen widget, tek atomic snapshot v1, kind başına scope/visibility, small/medium, default masked, safe deep link, no direct write, expiry/refresh, 250 ms debounce ve privacy generation. Expo Widgets doğrulama kapısı; Glance/WidgetKit fallback, cihaz/SDK pending. Widget ve capture testleri yapılmadı.
 
-PLAN-06 aktif: WIDGETS Proposed; altı home-screen widget, tek snapshot publisher, privacy default masked/explicit opt-in, deep link auth, OS refresh limitleri, Expo Widgets spike / Glance-WidgetKit fallback. Git HEAD, AGENTS, CURRENT_STATE, DECISION_REGISTER, WIDGETS, PLATFORM_BRIDGE, SECURITY, FINANCIAL_INTELLIGENCE oku. Sonra PLAN-07 Security & Cloud Sync. Provider/library/SDK, signing ve cihaz doğrulaması pending.
+PLAN-07 aktif: SECURITY ve SYNC Proposed. SQLCipher DB, OS secure key, biometric UI gate (ayrı key politikası), passphrase encrypted portable backup/restore, açık CSV/JSON export, local-first. Optional cloud encrypted backup önce; çok cihazlı sync CAS snapshot + explicit conflict review, kapsam korunur. Provider/free tier/auth/crypto doğrulaması pending; canlı bulut kurulmadı. Git HEAD, AGENTS, CURRENT_STATE, DECISION_REGISTER, SECURITY, SYNC, WIDGETS, SMART_CAPTURE ve ADR-0003 oku. Onay sonrası PLAN-08 Screen Specifications.
 
 Faz başına ayrı Markdown goal prompt/blueprint ve ilerleme kontrolü CODEX_EXECUTION_PROTOCOL içinde; nihai dosyalar PLAN-09. Uygulama kodu, paket kurulumu, build, cihaz testi yok.

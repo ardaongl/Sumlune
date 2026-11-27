@@ -28,7 +28,10 @@
 | İzin iptali | Manuel ve offline kullanım sürer. |
 | Döviz | Orijinal tutar ve kur korunur; eksik kur açıkça gösterilir. |
 | Offline | Hesap, işlem ve yerel ödeme sunucusuz çalışır. |
-| Widget gizlilik | Açık tutar snapshot'ta yok, eski snapshot temizlenir. |
+| Widget gizlilik | Masked payload finansal alan içermez; eski snapshot temizlenir, OS reload istenir; anlık launcher cache garantisi yok. |
+| Widget midnight/expiry | Eski günlük değer bugün diye sunulmaz; stale placeholder. |
+| Widget quick-add / deep link | Auth gate ve açık save; doğrudan finansal yazım yok. |
+| Widget publisher privacy race | Eski visible generation maskeli payload üzerine yazamaz. |
 | Migration | Önceki kayıtlar korunur, hata güvenli yönetilir. |
 | Restore | Hatalı parola/bozuk dosya mevcut veriyi bozmaz. |
 | TR/EN ve tema | Kritik akışlarda taşma, okunamaz kontrast, eksik çeviri yok. |

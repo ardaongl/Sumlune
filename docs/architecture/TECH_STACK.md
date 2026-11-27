@@ -11,14 +11,14 @@ Framework Accepted; aşağıdaki yığın teknik uyumluluk doğrulaması şartı
 | State | Zustand UI state, TanStack Query repository sorguları, React hooks |
 | Form/validation | React Hook Form, Zod |
 | DB | expo-sqlite + SQLCipher, Drizzle ORM/migrations |
-| Para | ADR-0010: SQLite INTEGER minor units, JS safe integer; gerektiğinde BigInt, Decimal.js (uyum doğrulaması şartlı); wire sözleşmesi taslak |
+| Para | ADR-0010: SQLite INTEGER minor units, JS safe integer; gerektiğinde BigInt, Decimal.js (uyum doğrulaması şartlı); wire ADR-0011 canonical integer-string |
 | Native | Expo Modules API, Kotlin, Swift; ADR-0014 foreground drain, WorkManager/Headless JS yalnız ihtiyaç/spike |
-| Widget | PLAN-06 Proposed: expo-widgets önce uyumluluk spike; SwiftUI/WidgetKit ve Jetpack Glance fallback; ortak snapshot |
+| Widget | ADR-0015 Accepted (renderer koşullu): expo-widgets önce uyumluluk spike; SwiftUI/WidgetKit ve Jetpack Glance fallback; ortak snapshot |
 | Bildirim | expo-notifications |
-| Güvenlik | Expo SecureStore, Expo Local Authentication, OS Keystore/Keychain |
+| Güvenlik | Expo SecureStore, Expo Local Authentication, OS Keystore/Keychain; PLAN-07 crypto/backup taslağı |
 | UI araçları | Reanimated, Gesture Handler, React Native SVG, Expo Haptics, Lucide React Native |
 | i18n | i18next (TR/EN) |
-| Bulut | Supabase aday; E2EE ayrı tasarlanır |
+| Bulut | PLAN-07 Proposed: local encrypted backup first, Supabase optional E2EE backup/sync aday |
 | Test | Vitest, Jest + React Native Testing Library, Maestro, native test |
 | CI/build | GitHub Actions, Expo EAS veya local builds |
 

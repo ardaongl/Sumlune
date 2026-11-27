@@ -6,10 +6,10 @@
 | 02 | Design System | Accepted yön; token/ekran Proposed |
 | 03 | Technical Architecture | Accepted; stack koşullu, doğrulama Pending |
 | 04 | Repository Initialization | Done; 42 Markdown baseline |
-| 05 | Database & Financial Engine | In progress (PLAN-02) |
-| 06 | Smart Capture Architecture | Pending |
-| 07 | Native Widget Architecture | Pending |
-| 08 | Security & Cloud Sync | Pending |
+| 05 | Database & Financial Engine | Done (PLAN-02/03/04A/B tasarım) |
+| 06 | Smart Capture Architecture | Done (tasarım; cihaz/izin pending) |
+| 07 | Native Widget Architecture | Done (tasarım; renderer/cihaz pending) |
+| 08 | Security & Cloud Sync | In progress (PLAN-07) |
 | 09 | Screen Specifications | Pending |
 | 10 | Testing & Quality Strategy | Pending |
 | 11 | Codex Integration Plan | Pending; faz bazlı Markdown blueprint ve ilerleme kontrolü zorunlu |

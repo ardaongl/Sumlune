@@ -14,3 +14,4 @@
 - [ADR-0012 — Payment & Recurrence Engine](ADR-0012-payment-recurrence.md) — Accepted
 - [ADR-0013 — Financial Intelligence Engine](ADR-0013-financial-intelligence.md) — Accepted
 - [ADR-0014 — Smart Capture Architecture](ADR-0014-smart-capture.md) — Accepted
+- [ADR-0015 — Native Widget Architecture](ADR-0015-native-widgets.md) — Accepted (renderer koşullu)
