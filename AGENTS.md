@@ -15,7 +15,7 @@
 - ADR-0006: lightweight double-entry ve finansal invariants bağlayıcı. Bütçe için en küçük doğru çözümü seç; muhasebe UI, event sourcing/CQRS, ayrı finans backend'i veya gereksiz abstraction ekleme. Onaylı kapsam, veri güvenliği ve testler maliyet adına kaldırılmaz.
 - ADR-0002: feature-first modular monolith, pragmatic Clean Architecture, ports & adapters, pnpm ve üç ortak paket bağlayıcı. ADR-0009 uyumluluk kapısını geçmeden paket sürümü kesinleştirme; başarısızlıkta ADR ile onay iste.
 - Saf finansal domain RN, Expo, SQLite, Zustand, native SDK'dan bağımsız. SQLite tek finansal veri kaynağı hedefi. Yazımlar application use case üzerinden atomik ve idempotent; widget/analitik doğrudan yazamaz.
-- Binary float ile para hesaplama yok; doğrulanmış minor units/decimal. Transfer ve kart borç ödemesi gider değil, plan gerçekleşmiş gider değil.
+- ADR-0010: SQLite INTEGER minor units, JS güvenli integer sınırı (girdi/çıktı/toplam), gerektiğinde BigInt, Decimal.js kur hesabı; küsuratlı binary float para hesabı yok. ISO 4217, tarihsel kur korunur, manuel fallback; ücretli kur API/backend yok. Kesin FX/rounding/wire taslağı onaylanmadan uygulama. Transfer ve kart borç ödemesi gider değil, plan gerçekleşmiş gider değil.
 - OTP, tam kart numarası, ham banka mesajı, anahtar, gerçek finansal kayıt ve hassas log repo/telemetri/buluta gitmez. Sentetik/maskeli fixture.
 - Pure Apple ortak tokenları, erişilebilirlik; iOS sistem fontu Android'e kopyalanmaz.
 - Gerçek veriyi silen reset/migration veya history rewrite izinsiz yapılmaz.

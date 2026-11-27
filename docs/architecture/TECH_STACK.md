@@ -11,7 +11,7 @@ Framework Accepted; aşağıdaki yığın teknik uyumluluk doğrulaması şartı
 | State | Zustand UI state, TanStack Query repository sorguları, React hooks |
 | Form/validation | React Hook Form, Zod |
 | DB | expo-sqlite + SQLCipher, Drizzle ORM/migrations |
-| Para | BigInt/Decimal.js; wire ve SQLite temsil kararı bekliyor |
+| Para | ADR-0010: SQLite INTEGER minor units, JS safe integer; gerektiğinde BigInt, Decimal.js (uyum doğrulaması şartlı); wire sözleşmesi taslak |
 | Native | Expo Modules API, Kotlin, Swift; Android WorkManager/Headless JS spike |
 | Widget | SwiftUI/WidgetKit, Jetpack Glance; Expo Widgets desteği doğrulanacak |
 | Bildirim | expo-notifications |
@@ -38,4 +38,4 @@ SQLite tek kaynak; cache/Zustand yerine geçmez. Config plugin/prebuild ile öze
 - SQLCipher + Drizzle migration, kesin para serileştirmesi ve anahtar/lifecycle erişimi.
 - Android capture izinleri/queue/arka plan, iOS widget extension ve Android Glance, Expo Widgets gerçek destek matrisi.
 - Native bildirim, biyometri, güvenli storage ve grafik/gesture entegrasyonu.
-- Başarısız doğrulamada bulguyu ve alternatifini ADR ile ürün sahibine sun; sessiz paket değişikliği yok. Supabase aday olarak kalır; canlı bulut/E2EE tasarımı onaylı değildir. BigInt/Decimal.js kesin persistence temsilini belirlemez.
+- Başarısız doğrulamada bulguyu ve alternatifini ADR ile ürün sahibine sun; sessiz paket değişikliği yok. Supabase aday olarak kalır; canlı bulut/E2EE tasarımı onaylı değildir. ADR-0010 persistence kararını belirler; adapter round-trip ve kesin wire/FX semantiği doğrulanacak.

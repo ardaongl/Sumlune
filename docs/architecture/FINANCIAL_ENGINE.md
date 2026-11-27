@@ -11,13 +11,13 @@ ADR-0006: Lightweight double-entry; journal entry + postings, varlık/yükümlü
 | Birikim transferi | Kaynak azalır, hedef artar; gider yok |
 | İade | Orijinal işlem ilişkili düzeltme; tekrar sayım yok |
 
-Binary float yok; minor unit integer ve decimal dönüşüm. Orijinal kur/para/tarih saklanır. SQLite INTEGER/JS safe integer/JSON BigInt için temsil ADR gerekli. Atomik yazım, idempotency, balanced postings, revizyon/iptal geçmişi. Çoklu döviz ortak değerleme/FX farkı pending. Gerçekleşen zaman UTC + yerel bağlam; planlar yerel takvim/timezone.
+ADR-0010 Accepted: minor unit SQLite INTEGER, güvenli JS integer sınırı, gerektiğinde BigInt, Decimal.js ile kur, ISO 4217, TRY varsayılan ve değiştirilebilir raporlama para birimi, tarihsel kur ve hibrit ücretsiz/manuel kaynak. [Money & Currency](MONEY_CURRENCY.md) ayrıntıları; kesin FX posting, yuvarlama ve wire sözleşmesi öneri. Atomik yazım, idempotency, balanced postings, revizyon/iptal geçmişi. Gerçekleşen zaman UTC + yerel bağlam; planlar yerel takvim/timezone.
 
-Plan occurrence üretir, gerçekleşme ayrı journal entry. Ay sonu, 29 Şubat, DST, partial payment, taksit rounding, kart dönemleri, borç/alacak, kur kaynağı, net iade, açılış bakiyesi pending.
+Plan occurrence üretir, gerçekleşme ayrı journal entry. Ay sonu, 29 Şubat, DST, partial payment, taksit rounding, kart dönemleri, borç/alacak, net iade ve ayrıntılı açılış bakiyesi pending. Kur sağlayıcısı doğrulama bekliyor.
 
 Güvenle harcanabilir: likit bakiye eksi seçilen ufuktaki ödenmemiş zorunlu yükümlülükler; gelecekteki gelir, kart çifte sayım, birikim rezervi, negatif ve eksik kur politikası pending. 30/60/90 tahmin varsayımları görünür; yıllık abonelik maliyeti normalize periyot ve kur, hesap politikası pending.
 
 ## Değişmez kurallar (Accepted)
 Dengeli posting, atomik yazım, idempotency, kesin para aritmetiği, izlenebilir edit/iptal, posting kaynaklı bakiye (bağımsız bakiye mutasyonu yok), plan/gerçekleşme ayrımı, deterministik hesap ve platform bağımsızlığı. Aynı para birimi için debit=credit; farklı dövizlerde kesin değerleme/dengelenme politikası sonraki kararda. Basit revizyon/iptal izi yeterli; event sourcing gerekmez. Kredi kartı borcu kredi limiti veya nakit varlık değildir. Finansal testler ve gerçek veri migration koruması sadeleştirme adına kaldırılmaz.
 
-**Sıradaki:** Money & Currency Model; minor units, güvenli integer sınırı, SQLite/JSON temsili, FX/rounding. Bu seçim henüz yapılmadı.
+**Sıradaki:** PLAN-03 Database Schema; [kavramsal şema](DATABASE.md). Kesin FX posting/rounding, hesap semantiği ve wire taslağı şema ile birlikte gözden geçirilir.
