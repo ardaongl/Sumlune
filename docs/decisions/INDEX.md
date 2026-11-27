@@ -18,3 +18,4 @@
 - [ADR-0016 — Security & Phased Cloud Sync](ADR-0016-security-cloud-sync.md) — Accepted (teknik doğrulama şartlı)
 - [ADR-0017 — Screen Specifications & Pure Apple UI](ADR-0017-screen-design.md) — Accepted
 - [ADR-0018 — Testing & Quality Strategy](ADR-0018-testing-quality.md) — Accepted
+- [ADR-0019 — Codex Phase Blueprints & Progress Control](ADR-0019-codex-execution.md) — Accepted

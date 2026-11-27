@@ -1,6 +1,6 @@
 # Güncel durum — 2026-11-28
 
-**Phase:** Planning / Codex Phase Blueprints & Progress Control. **Coding authorized:** No.
+**Phase:** Planning complete / awaiting PHASE-00 authorization. **Coding authorized:** No.
 
 Sumlune, Android/iOS, RN + Expo + TypeScript, Pure Apple, 35 temel özellik + 4 giriş yöntemi, hibrit capture, local-first + opsiyonel bulut, Türkçe docs ve repo tabanlı karar süreci Accepted.
 
@@ -25,9 +25,9 @@ PLAN-08 tamamlandı: ADR-0017 Accepted, 4 içerik tabı + Ekle aksiyonu, 25 ekra
 
 PLAN-09A tamamlandı: ADR-0018 Accepted, risk-temelli test, 38 Q grubu, core >=95% lines / >=90% branches, mandatory gates, düşük maliyetli CI ve cihaz/performance targets. Test çalıştırılmadı.
 
-**Aktif:** PLAN-09B bağımsız ayrıntılı phase blueprint ve progress kontrol. Kodlama yetkisi yok.
+PLAN-09B tamamlandı: ADR-0019, 13 ayrı goal prompt, 64 task, MASTER_PLAN, PROGRESS, SCOPE_TRACEABILITY, EVIDENCE_TEMPLATE, TECHNICAL_VALIDATION, START_HERE. Implementation 0; aktif faz yok. PHASE-00 açık izin bekliyor.
 
-Ürün sahibi, teknik kararlar tamamlandığında her faz için ayrı Markdown goal prompt/blueprint ve ilerleme kontrol sistemi istedi. Yürütme gereksinimi [CODEX_EXECUTION_PROTOCOL](CODEX_EXECUTION_PROTOCOL.md) içinde; nihai faz dosyaları PLAN-09'da hazırlanacak.
+Ürün sahibi, teknik kararlar tamamlandığında her faz için ayrı Markdown goal prompt/blueprint ve ilerleme kontrol sistemi istedi. Yürütme gereksinimi [CODEX_EXECUTION_PROTOCOL](CODEX_EXECUTION_PROTOCOL.md) içinde; nihai faz dosyaları hazır; [MASTER_PLAN](MASTER_PLAN.md), [PROGRESS](PROGRESS.md), [START_HERE](START_HERE.md).
 
 Uygulama kodu, scaffold, paket kurulumu, build ve cihaz testi yok. Private repo hedefi geçerli; görünürlük değişikliği bu oturum kapsamı değildir.
 

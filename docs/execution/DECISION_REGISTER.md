@@ -19,7 +19,7 @@ Accepted yalnız açık onay; Accepted (koşullu) = tercih onaylı, teknik doğr
 | Önerilen teknoloji yığını (SQLCipher, Drizzle, Zustand, TanStack Query, native stack dahil) | Accepted (koşullu) | ADR-0009 / TECH_STACK |
 | Paket sürümleri, platform uyumu, Expo Widgets desteği, Supabase nihai seçimi | Pending | TECH_STACK / ADR-0009 |
 | Pure Apple tokenlar, 4 tab + Ekle, 25 ekran ailesi, ortak UI, Inter (lisans/cihaz şartlı) | Accepted | ADR-0017 / DESIGN_SYSTEM |
-| İngilizce kod, main, Conventional Commits | Proposed | GIT_WORKFLOW |
+| İngilizce kod, main, Conventional Commits | Accepted (yürütme standardı) | ADR-0019 / GIT_WORKFLOW |
 | Smart Capture notification-first, encrypted queue, foreground drain, gated SMS/review, Akbank ve Ziraat ilk hedef | Accepted | ADR-0014 / SMART_CAPTURE |
 | Banka fixture, izin ve cihaz doğrulaması | Pending | SMART_CAPTURE / DEV-00 |
 | Altı widget, ortak snapshot v1, privacy default masked, deep link, small/medium | Accepted | ADR-0015 / WIDGETS |
@@ -34,7 +34,7 @@ Accepted yalnız açık onay; Accepted (koşullu) = tercih onaylı, teknik doğr
 | Crypto/SDK, provider/kota/RLS ve cihaz doğrulaması | Pending | ADR-0016 / DEV-00 ve cloud fazı |
 | Ekran detayları, navigation, component/token sözleşmesi | Accepted | ADR-0017 / SCREENS |
 | Risk temelli test, 95% line/90% branch core, 38 Q grubu, kalite kapısı ve cihaz matrisi | Accepted | ADR-0018 / TEST_STRATEGY / QUALITY_MATRIX |
-| Nihai faz blueprint'leri ve progress kontrol sözleşmesi | In preparation | PLAN-09B |
+| 13 phase blueprint, 64 task, single progress source, evidence gate ve kullanıcı faz yetkisi | Accepted (devredilmiş planlama) | ADR-0019 / MASTER_PLAN / PROGRESS |
 | Flutter ve eski Dart stack | Superseded | ADR-0008 |
 
 [ADR dizini](../decisions/INDEX.md). Yeni karar kabul edilince ilgili ADR ve tüketen dokümanlar birlikte güncellenir; eski karar silinmez, superseded işaretlenir.

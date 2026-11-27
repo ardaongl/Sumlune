@@ -11,8 +11,8 @@
 | PLAN-06 | Widget snapshot/deep link sözleşmesi | PLAN-04/05 | Done (tasarım Accepted; renderer/cihaz pending) |
 | PLAN-07 | Security, backup, cloud sync | PLAN-03/05/06 | Done (tasarım Accepted; doğrulama pending) |
 | PLAN-08 | Ekran, design system ve kabul kriterleri | PLAN-02..07 | Done (tasarım Accepted; UI/device pending) |
-| PLAN-09 | 09A Testing & Quality, 09B faz başına ayrıntılı Markdown goal prompt/blueprint, progress kontrol ve Codex handoff | PLAN-01..08 | In progress (09A Accepted; 09B aktif) |
+| PLAN-09 | 09A Testing & Quality, 09B faz başına ayrıntılı Markdown goal prompt/blueprint, progress kontrol ve Codex handoff | PLAN-01..08 | Done (ADR-0018/0019; blueprint ve progress hazır) |
 | DEV-00 | SDK uyumu ve native/SQLCipher spike | Açık kodlama onayı | Not authorized |
-| DEV-01 | Dört reset implementation | DEV-00 + plan | Not authorized |
+| DEV-01 | PHASE-01..12 implementation (00–09 local; 10 SMS, 11–12 cloud ayrı) | DEV-00 + plan | Not authorized |
 
-PLAN-03 çekirdek şema ve FX/rounding/wire tamamlandı. PLAN-04A/B tamamlandı; PLAN-05 tamamlandı; PLAN-06 tamamlandı; PLAN-07 tamamlandı; PLAN-08 tamamlandı; PLAN-09A tamamlandı; PLAN-09B Codex blueprint ve progress control aktif. Koşullu stack doğrulaması DEV-00 kapsamındadır. Bu görevler uygulama kodlama izni değildir.
+PLAN-03 çekirdek şema ve FX/rounding/wire tamamlandı. PLAN-04A/B tamamlandı; PLAN-05 tamamlandı; PLAN-06 tamamlandı; PLAN-07 tamamlandı; PLAN-08 tamamlandı; PLAN-09A/B tamamlandı; implementation [MASTER_PLAN](MASTER_PLAN.md), [PROGRESS](PROGRESS.md) üzerinden izlenir. PHASE-00 ayrı kullanıcı izni bekler. Koşullu stack doğrulaması DEV-00 kapsamındadır. Bu görevler uygulama kodlama izni değildir.

@@ -8,6 +8,6 @@
 | Tasarım | [Sistem](design/DESIGN_SYSTEM.md), [Tokenlar](design/DESIGN_TOKENS.md), [Bileşenler](design/COMPONENTS.md), [Ekranlar](design/SCREENS.md), [Ekran detayları](design/SCREEN_DETAILS.md) |
 | Mühendislik | [Standartlar](engineering/CODING_STANDARDS.md), [Test](engineering/TEST_STRATEGY.md), [Kalite matrisi](engineering/QUALITY_MATRIX.md), [Git](engineering/GIT_WORKFLOW.md), [Done](engineering/DEFINITION_OF_DONE.md) |
 | Kararlar | [Karar defteri](execution/DECISION_REGISTER.md), [ADR dizini](decisions/INDEX.md) |
-| Yürütme | [Roadmap](execution/ROADMAP.md), [Backlog](execution/BACKLOG.md), [Durum](execution/CURRENT_STATE.md), [Handoff](execution/SESSION_HANDOFF.md), [Riskler](execution/KNOWN_ISSUES.md), [Codex yürütme protokolü](execution/CODEX_EXECUTION_PROTOCOL.md) |
+| Yürütme | [Roadmap](execution/ROADMAP.md), [Backlog](execution/BACKLOG.md), [Durum](execution/CURRENT_STATE.md), [Handoff](execution/SESSION_HANDOFF.md), [Riskler](execution/KNOWN_ISSUES.md), [Codex yürütme protokolü](execution/CODEX_EXECUTION_PROTOCOL.md), [Başlangıç](execution/START_HERE.md), [Master plan](execution/MASTER_PLAN.md), [Progress](execution/PROGRESS.md), [Scope eşleme](execution/SCOPE_TRACEABILITY.md), [Kanıt şablonu](execution/EVIDENCE_TEMPLATE.md), [Teknik doğrulama](execution/TECHNICAL_VALIDATION.md) |
 
 Accepted = açık kullanıcı onayı; Accepted (koşullu) = tercih onaylı, teknik doğrulama bekliyor; Proposed = teknik öneri; Pending = çözülmemiş; Superseded = eski karar. Teknik taslaklar geliştirme izni değildir.

@@ -12,7 +12,7 @@
 | 08 | Security & Cloud Sync | Done (tasarım; crypto/provider/cihaz pending) |
 | 09 | Screen Specifications | Done (PLAN-08 tasarım) |
 | 10 | Testing & Quality Strategy | Done (ADR-0018; testler henüz Not run) |
-| 11 | Codex Integration Plan | In progress (PLAN-09B); faz bazlı Markdown blueprint ve ilerleme kontrolü zorunlu |
+| 11 | Codex Integration Plan | Done (ADR-0019, 13 blueprint, progress) |
 | 12 | Implementation | Açık onaya kadar yasak |
 
 ## Dört limit reseti — önerilen hedef, garanti değil
@@ -23,4 +23,4 @@
 
 Reset kapasitesi/son kullanma tarihleri kesin değil. Her reset sonunda çalışan checkpoint; doğrulanabilir dikey dilim, yarım özellik değil. Reset tüketmek amaç değil.
 
-Her faz için ayrı, doğrudan Codex'e verilebilir goal prompt/blueprint hazırlanacak. Faz sayısı reset sayısına eşit olmak zorunda değil. [Codex yürütme protokolü](CODEX_EXECUTION_PROTOCOL.md): görev bağımlılıkları, doğrulama kapısı, ilerleme kontrolü ve kullanıcı onayı. Blueprint'ler teknik kararlar tamamlanınca yazılır.
+Her faz için ayrı, doğrudan Codex'e verilebilir goal prompt/blueprint hazırlanacak. Faz sayısı reset sayısına eşit olmak zorunda değil. [Codex yürütme protokolü](CODEX_EXECUTION_PROTOCOL.md): görev bağımlılıkları, doğrulama kapısı, ilerleme kontrolü ve kullanıcı onayı. Blueprint'ler hazır; [MASTER_PLAN](MASTER_PLAN.md) kesin faz dağılımı, [PROGRESS](PROGRESS.md) canlı durum, [START_HERE](START_HERE.md) başlangıç. Reset grupları tahmin; master plan ayrıntısı öncelikli.
