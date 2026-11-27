@@ -5,3 +5,5 @@ Görsel yön **Accepted**: Apple Wallet finansal sadelik, Health veri hiyerarşi
 Light/dark/system. iOS SF Pro sistem fontu, Android Inter (öneri; lisans doğrulanır); SF Pro dosyası Android'e paketlenmez. Tabular numerals, dinamik font, ekran okuyucu, kontrast, reduce motion, safe area, 48dp touch hedefi. Native sistem dialog ve izin OS'e uygun. Cam efektleri yalnız navigasyon/overlay, okunabilirlik uygunsa; zorunlu değil. Ortak StyleSheet ve token, keyfi hardcoded stil yok. Development-only UI Playground önerilir.
 
 Referans: https://developer.apple.com/design/human-interface-guidelines/ ve https://developer.apple.com/design/resources/ . Tokenlar/ekranlar öneri; gerçek cihaz doğrulaması yok.
+
+PLAN-08 önerisi: 4 içerik tabı + Ekle aksiyonu, grouped lists, reusable editor/detail/sheet, görsel hiyerarşide finansal tutar ve next action. [SCREENS](SCREENS.md) ve [SCREEN_DETAILS](SCREEN_DETAILS.md). Tasarım tokenları ve ekran sözleşmesi onay bekliyor; Figma veya gerçek cihaz çıktısı yok.

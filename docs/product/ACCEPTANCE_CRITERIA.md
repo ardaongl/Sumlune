@@ -33,7 +33,13 @@
 | Widget quick-add / deep link | Auth gate ve açık save; doğrudan finansal yazım yok. |
 | Widget publisher privacy race | Eski visible generation maskeli payload üzerine yazamaz. |
 | Migration | Önceki kayıtlar korunur, hata güvenli yönetilir. |
-| Restore | Hatalı parola/bozuk dosya mevcut veriyi bozmaz. |
+| Restore | Hatalı parola/bozuk dosya mevcut veriyi bozmaz; staged encrypted swap ve rollback. |
+| DB key kaybı | Mevcut DB reset/overwrite yok; recovery ekranı. |
+| Biyometrik lock + widget | Tutarlar maskeli; deep link auth gate. |
+| Şifreli backup | Cross-platform restore; raw/key/token dışarıda; kayıp parola kurtarılamaz. |
+| CSV/JSON export | Açık metin uyarısı, fresh auth gerekirse, CSV formula injection koruması. |
+| Cloud conflict | Local/remote korunur; explicit çözüm ve CAS, silent overwrite yok. |
+| Cloud offline/quota | Yerel işlevler devam, otomatik ücret yok. |
 | TR/EN ve tema | Kritik akışlarda taşma, okunamaz kontrast, eksik çeviri yok. |
 
 Sayısal performans/kapsam eşikleri teknik aşamada belirlenir. Bunlar test sonucu değildir.

@@ -48,6 +48,6 @@ erDiagram
 | Bütçe/birikim | budgets, savings_goals; [FINANCIAL_INTELLIGENCE](FINANCIAL_INTELLIGENCE.md) ADR-0013 Accepted; budget_periods yok başlangıçta. accounts.include_in_spendable ve payment_schedules.required artımlı migration ile. |
 | Capture | capture_candidates, automation_rules, merchant_mappings; ADR-0014 Accepted, account capture mapping alanları ve semantic dedup [SMART_CAPTURE](SMART_CAPTURE.md) |
 | Widget / analiz / takvim | Read model + minimum platform snapshot; ayrı finansal veri kaynağı yok; [WIDGETS](WIDGETS.md) ADR-0015 Accepted; snapshot DB değil |
-| Backup / sync | PLAN-07 Proposed; encrypted portable backup, optional CAS snapshot sync; [SECURITY](SECURITY.md), [SYNC](SYNC.md); başlangıçta outbox/change_log yok |
+| Backup / sync | ADR-0016 Accepted; encrypted portable backup, optional CAS snapshot sync; [SECURITY](SECURITY.md), [SYNC](SYNC.md); başlangıçta outbox/change_log yok |
 
 PLAN-03 tasarım onaylandı; DDL, exact adapter testi ve sonraki modül kolonları yapılmadı. [Para ve kur](MONEY_CURRENCY.md) tamamlayıcı sözleşmedir.

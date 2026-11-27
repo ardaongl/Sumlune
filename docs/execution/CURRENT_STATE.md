@@ -1,6 +1,6 @@
 # Güncel durum — 2026-11-28
 
-**Phase:** Planning / Security & Cloud Sync. **Coding authorized:** No.
+**Phase:** Planning / Screen Specifications. **Coding authorized:** No.
 
 Sumlune, Android/iOS, RN + Expo + TypeScript, Pure Apple, 35 temel özellik + 4 giriş yöntemi, hibrit capture, local-first + opsiyonel bulut, Türkçe docs ve repo tabanlı karar süreci Accepted.
 
@@ -19,7 +19,9 @@ PLAN-05 tamamlandı: ADR-0014 Accepted, Akbank ve Ziraat ilk entegrasyon hedefi,
 
 PLAN-06 tamamlandı: ADR-0015 Accepted, altı widget, tek versioned privacy-filtered snapshot, default masked, small/medium, deep link auth, foreground publication. Expo Widgets doğrulama kapısı, Glance/WidgetKit fallback; SDK/cihaz/renderer pending.
 
-**Aktif:** PLAN-07 [Security](../architecture/SECURITY.md) ve [Cloud Sync](../architecture/SYNC.md) Proposed. Şifreli local DB, ayrı UI biometric gate, taşınabilir encrypted backup/restore, optional cloud encrypted backup ve conflict-safe snapshot sync. Canlı sync kapsamda, core release için zorunlu değil. Sonra PLAN-08 Screen Specifications.
+PLAN-07 tamamlandı: ADR-0016 Accepted, local SQLCipher + ayrı biometric gate, portable AES-GCM backup/restore, CSV/JSON export, C aşamalı cloud backup ve CAS snapshot sync. Cloud kapsamda ancak ayrı faz; provider/crypto/cihaz doğrulaması pending. Lock açıkken widget değerleri maskeli.
+
+**Aktif:** PLAN-08 [Screen Specifications](../design/SCREENS.md) Proposed; beş alt navigasyon konumu (ortadaki Ekle aksiyon), ekran/akış/state sözleşmeleri, design tokens ve bileşenler. Ardından PLAN-09 Testing & Quality ve Codex phase blueprints/progress.
 
 Ürün sahibi, teknik kararlar tamamlandığında her faz için ayrı Markdown goal prompt/blueprint ve ilerleme kontrol sistemi istedi. Yürütme gereksinimi [CODEX_EXECUTION_PROTOCOL](CODEX_EXECUTION_PROTOCOL.md) içinde; nihai faz dosyaları PLAN-09'da hazırlanacak.
 

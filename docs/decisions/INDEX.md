@@ -15,3 +15,4 @@
 - [ADR-0013 — Financial Intelligence Engine](ADR-0013-financial-intelligence.md) — Accepted
 - [ADR-0014 — Smart Capture Architecture](ADR-0014-smart-capture.md) — Accepted
 - [ADR-0015 — Native Widget Architecture](ADR-0015-native-widgets.md) — Accepted (renderer koşullu)
+- [ADR-0016 — Security & Phased Cloud Sync](ADR-0016-security-cloud-sync.md) — Accepted (teknik doğrulama şartlı)

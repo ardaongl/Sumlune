@@ -10,3 +10,5 @@
 - Widget snapshot görünümü ortak token eşlemesiyle native.
 
 Hızlı tab geçişi, bottom sheet, başarılı işlemde hafif haptic, ölçülü bakiye animasyonu, kaydırma/context menu, grafik detay seçimi ve privacy mask. Reduce motion ve erişilebilir alternatif zorunlu hedef. UI Playground development-only; visual regression aday. UI henüz kodlanmadı.
+
+PLAN-08 ortak component contracts: MoneyInput (string, currency, locale, validation, accessible keypad); FinanceAmount (minor string/display, privacy/incomplete); GroupedSection/Row (label, value, icon, trailing action, min touch); FormSheet (safe area, keyboard, dirty discard, pending/submit error); StatusLabel (text+icon, not color-only); EmptyState/InlineError/IncompleteState; PeriodSelector; ChartSummary (accessible data); AuthGate/PrivacyMask; shared PlanEditor/SettlementSheet ve TransactionEditor. Bileşenler domain yazımı yapmaz; props/read models + application callbacks. Yeni component yalnız tekrar kullanım/gerçek ihtiyaç. No custom animation framework.

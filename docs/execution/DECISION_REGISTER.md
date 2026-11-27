@@ -30,7 +30,9 @@ Accepted yalnız açık onay; Accepted (koşullu) = tercih onaylı, teknik doğr
 | Tek SQLite, çekirdek şema, artımlı migration, ortak Payment Engine | Accepted | ADR-0011 / DATABASE |
 | Payment/recurrence/taksit/borç detayları, 90 günlük horizon, kısmi ödeme | Accepted | ADR-0012 / PAYMENT_RECURRENCE |
 | Bütçe, birikim, safe-to-spend, nakit tahmini ve analiz | Accepted | ADR-0013 / FINANCIAL_INTELLIGENCE |
-| Yerel güvenlik, portable encrypted backup ve optional cloud sync | Proposed | SECURITY / SYNC / PLAN-07 |
+| Yerel güvenlik, portable encrypted backup, C aşamalı cloud backup ve CAS snapshot sync | Accepted | ADR-0016 / SECURITY / SYNC |
+| Crypto/SDK, provider/kota/RLS ve cihaz doğrulaması | Pending | ADR-0016 / DEV-00 ve cloud fazı |
+| Ekran detayları, navigation, component/token sözleşmesi | Proposed | SCREENS / PLAN-08 |
 | Flutter ve eski Dart stack | Superseded | ADR-0008 |
 
 [ADR dizini](../decisions/INDEX.md). Yeni karar kabul edilince ilgili ADR ve tüketen dokümanlar birlikte güncellenir; eski karar silinmez, superseded işaretlenir.

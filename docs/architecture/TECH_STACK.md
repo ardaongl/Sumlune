@@ -15,10 +15,10 @@ Framework Accepted; aşağıdaki yığın teknik uyumluluk doğrulaması şartı
 | Native | Expo Modules API, Kotlin, Swift; ADR-0014 foreground drain, WorkManager/Headless JS yalnız ihtiyaç/spike |
 | Widget | ADR-0015 Accepted (renderer koşullu): expo-widgets önce uyumluluk spike; SwiftUI/WidgetKit ve Jetpack Glance fallback; ortak snapshot |
 | Bildirim | expo-notifications |
-| Güvenlik | Expo SecureStore, Expo Local Authentication, OS Keystore/Keychain; PLAN-07 crypto/backup taslağı |
+| Güvenlik | Expo SecureStore, Expo Local Authentication, OS Keystore/Keychain; ADR-0016 AES-GCM portable backup + PBKDF2-SHA256 (crypto/SDK doğrulama şartlı) |
 | UI araçları | Reanimated, Gesture Handler, React Native SVG, Expo Haptics, Lucide React Native |
 | i18n | i18next (TR/EN) |
-| Bulut | PLAN-07 Proposed: local encrypted backup first, Supabase optional E2EE backup/sync aday |
+| Bulut | ADR-0016 local encrypted backup first, optional E2EE cloud backup/snapshot CAS sync; Supabase aday |
 | Test | Vitest, Jest + React Native Testing Library, Maestro, native test |
 | CI/build | GitHub Actions, Expo EAS veya local builds |
 
@@ -38,4 +38,4 @@ SQLite tek kaynak; cache/Zustand yerine geçmez. Config plugin/prebuild ile öze
 - SQLCipher + Drizzle migration, kesin para serileştirmesi ve anahtar/lifecycle erişimi.
 - Android capture izinleri/queue/arka plan, iOS widget extension ve Android Glance, Expo Widgets gerçek destek matrisi.
 - Native bildirim, biyometri, güvenli storage ve grafik/gesture entegrasyonu.
-- Başarısız doğrulamada bulguyu ve alternatifini ADR ile ürün sahibine sun; sessiz paket değişikliği yok. Supabase aday olarak kalır; canlı bulut/E2EE tasarımı onaylı değildir. ADR-0010 persistence kararını belirler; adapter round-trip ve kesin wire/FX semantiği doğrulanacak.
+- Başarısız doğrulamada bulguyu ve alternatifini ADR ile ürün sahibine sun; sessiz paket değişikliği yok. Supabase aday olarak kalır; aşamalı E2EE backup/sync tasarımı ADR-0016 Accepted, provider/crypto/uygulama doğrulaması Pending. ADR-0010 persistence kararını belirler; adapter round-trip ve kesin wire/FX semantiği doğrulanacak.

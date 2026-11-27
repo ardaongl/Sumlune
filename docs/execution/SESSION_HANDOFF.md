@@ -1,9 +1,9 @@
 # Oturum devri
 
-2026-11-28 — PLAN-06 onayı, PLAN-07 başlangıcı. Önceki commit 16b576d06c7b00756bc496f20c9264beb84f7d67. Kodlama yetkisi yok.
+2026-11-28 — PLAN-07 onayı, PLAN-08 başlangıcı. Önceki commit 98d0c1d51276f800a24a002748443d360e698378. Kodlama yetkisi yok.
 
-ADR-0015 Accepted: altı home-screen widget, tek atomic snapshot v1, kind başına scope/visibility, small/medium, default masked, safe deep link, no direct write, expiry/refresh, 250 ms debounce ve privacy generation. Expo Widgets doğrulama kapısı; Glance/WidgetKit fallback, cihaz/SDK pending. Widget ve capture testleri yapılmadı.
+ADR-0016 Accepted: SQLCipher ve ayrı UI biometric gate; portable AES-256-GCM backup/restore, explicit replace/crash-safe swap, CSV/JSON export. C aşamalı cloud: local önce, optional cloud backup sonra, CAS snapshot sync ayrı faz; provider Supabase aday, kota/crypto/SDK/cihaz pending. Conflict review, iki kopya korunur, no silent overwrite. Lock açıkken widget masked; restore capture review-first/sync pause. Açık teknik detaylar ürün sahibi yetki devriyle belirlendi. Kod/test/proje/deploy yok.
 
-PLAN-07 aktif: SECURITY ve SYNC Proposed. SQLCipher DB, OS secure key, biometric UI gate (ayrı key politikası), passphrase encrypted portable backup/restore, açık CSV/JSON export, local-first. Optional cloud encrypted backup önce; çok cihazlı sync CAS snapshot + explicit conflict review, kapsam korunur. Provider/free tier/auth/crypto doğrulaması pending; canlı bulut kurulmadı. Git HEAD, AGENTS, CURRENT_STATE, DECISION_REGISTER, SECURITY, SYNC, WIDGETS, SMART_CAPTURE ve ADR-0003 oku. Onay sonrası PLAN-08 Screen Specifications.
+PLAN-08 aktif: SCREENS, SCREEN_DETAILS, USER_FLOWS, DESIGN_TOKENS, COMPONENTS Proposed. Dört içerik tabı ve ortada Ekle aksiyonu, grouped lists ve ortak form/detail; tüm 35+4 kapsam, cloud ekranları kendi fazında. Git HEAD, AGENTS, CURRENT_STATE, DECISION_REGISTER, SCREENS, SCREEN_DETAILS ve design/product docs oku. Onay sonrası PLAN-09: test strategy, phase blueprint ve progress kontrol. Henüz nihai blueprint yok.
 
-Faz başına ayrı Markdown goal prompt/blueprint ve ilerleme kontrolü CODEX_EXECUTION_PROTOCOL içinde; nihai dosyalar PLAN-09. Uygulama kodu, paket kurulumu, build, cihaz testi yok.
+Uygulama kodu, scaffold, paket kurulumu, build, cihaz testi yok. Kullanıcı fazları tek tek Codex'e verecek; sonraki faz explicit onay.

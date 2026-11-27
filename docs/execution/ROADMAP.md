@@ -9,8 +9,8 @@
 | 05 | Database & Financial Engine | Done (PLAN-02/03/04A/B tasarım) |
 | 06 | Smart Capture Architecture | Done (tasarım; cihaz/izin pending) |
 | 07 | Native Widget Architecture | Done (tasarım; renderer/cihaz pending) |
-| 08 | Security & Cloud Sync | In progress (PLAN-07) |
-| 09 | Screen Specifications | Pending |
+| 08 | Security & Cloud Sync | Done (tasarım; crypto/provider/cihaz pending) |
+| 09 | Screen Specifications | In progress (PLAN-08) |
 | 10 | Testing & Quality Strategy | Pending |
 | 11 | Codex Integration Plan | Pending; faz bazlı Markdown blueprint ve ilerleme kontrolü zorunlu |
 | 12 | Implementation | Açık onaya kadar yasak |
@@ -19,7 +19,7 @@
 1. Core Finance: bootstrap + spike, temel UI, DB/engine, hesap/işlem/şablon, TR/EN; ilk çalışan Android build hedefi.
 2. Financial Planning: abonelik, taksit, borç, ödeme, recurrence, takvim, bildirim.
 3. Smart Finance: Android capture, otomasyon, bütçe, analitik, tahmin, birikim; kritik widget erken teslim değerlendirilecek.
-4. Native Experience & Quality: altı widget, güvenlik, backup/export, test, performans, Android APK/iOS build hazırlığı. Widget/capture spike ilk reset; güvenlik temelleri baştan. Bulut implementation ayrı.
+4. Native Experience & Quality: altı widget, güvenlik, backup/export, test, performans, Android APK/iOS build hazırlığı. Widget/capture spike ilk reset; güvenlik temelleri baştan. Bulut backup ve CAS sync ayrı ardışık opsiyonel geliştirme fazları; core release blocker değil (ADR-0016).
 
 Reset kapasitesi/son kullanma tarihleri kesin değil. Her reset sonunda çalışan checkpoint; doğrulanabilir dikey dilim, yarım özellik değil. Reset tüketmek amaç değil.
 
