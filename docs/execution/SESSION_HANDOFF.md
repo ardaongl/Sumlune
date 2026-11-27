@@ -1,9 +1,9 @@
 # Oturum devri
 
-2026-11-28 — PLAN-07 onayı, PLAN-08 başlangıcı. Önceki commit 98d0c1d51276f800a24a002748443d360e698378. Kodlama yetkisi yok.
+2026-11-28 — PLAN-08 onayı, PLAN-09A başlangıcı. Önceki commit 40b708aa7c1c6d3fbb0c1a191951c73038923ffb. Kodlama yetkisi yok.
 
-ADR-0016 Accepted: SQLCipher ve ayrı UI biometric gate; portable AES-256-GCM backup/restore, explicit replace/crash-safe swap, CSV/JSON export. C aşamalı cloud: local önce, optional cloud backup sonra, CAS snapshot sync ayrı faz; provider Supabase aday, kota/crypto/SDK/cihaz pending. Conflict review, iki kopya korunur, no silent overwrite. Lock açıkken widget masked; restore capture review-first/sync pause. Açık teknik detaylar ürün sahibi yetki devriyle belirlendi. Kod/test/proje/deploy yok.
+ADR-0017 Accepted: Pure Apple tokens, 4 tab + Ekle aksiyon, 25 UX ailesi, ortak UI ve feature-specific editor, native keyboard, TR/EN/light-dark-system, privacy/lock/accessibility state. Açık teknik detaylar bütçe odaklı devredilmiş kararla belirlendi. Inter/contrast/actual render/cihaz doğrulanmadı. No Figma/kod.
 
-PLAN-08 aktif: SCREENS, SCREEN_DETAILS, USER_FLOWS, DESIGN_TOKENS, COMPONENTS Proposed. Dört içerik tabı ve ortada Ekle aksiyonu, grouped lists ve ortak form/detail; tüm 35+4 kapsam, cloud ekranları kendi fazında. Git HEAD, AGENTS, CURRENT_STATE, DECISION_REGISTER, SCREENS, SCREEN_DETAILS ve design/product docs oku. Onay sonrası PLAN-09: test strategy, phase blueprint ve progress kontrol. Henüz nihai blueprint yok.
+PLAN-09A aktif: TEST_STRATEGY, QUALITY_MATRIX, DEFINITION_OF_DONE gate ayrıntıları Proposed. Risk-temelli unit/integration/native/UI/E2E, financial core 95% lines/90% branches hedefi, mandatory scenario pass, P0/P1 release gate, düşük maliyetli CI/local device, evidence ve performance ölçüm. Git HEAD, AGENTS, CURRENT_STATE, DECISION_REGISTER, TEST_STRATEGY, QUALITY_MATRIX ve ACCEPTANCE_CRITERIA oku. Onay sonrası PLAN-09B ayrıntılı bağımsız Markdown phase goal prompt/blueprint dosyaları ve PROGRESS.md, master plan, scope mapping ve checkpoint. Faz sayısı reset sayısına bağlı değil; cloud ayrı. Nihai blueprint henüz yok.
 
-Uygulama kodu, scaffold, paket kurulumu, build, cihaz testi yok. Kullanıcı fazları tek tek Codex'e verecek; sonraki faz explicit onay.
+Uygulama kodu, scaffold, paket kurulumu, build, test veya cihaz doğrulaması yok. Fazlar kullanıcı onayıyla başlar; Codex bir sonraki faza kendiliğinden geçmez.

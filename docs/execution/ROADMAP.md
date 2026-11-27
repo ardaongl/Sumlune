@@ -3,16 +3,16 @@
 | Sıra | Aşama | Durum |
 |---|---|---|
 | 01 | Product Planning | Accepted kapsam |
-| 02 | Design System | Accepted yön; token/ekran Proposed |
+| 02 | Design System | Accepted (ADR-0017; cihaz doğrulaması pending) |
 | 03 | Technical Architecture | Accepted; stack koşullu, doğrulama Pending |
 | 04 | Repository Initialization | Done; 42 Markdown baseline |
 | 05 | Database & Financial Engine | Done (PLAN-02/03/04A/B tasarım) |
 | 06 | Smart Capture Architecture | Done (tasarım; cihaz/izin pending) |
 | 07 | Native Widget Architecture | Done (tasarım; renderer/cihaz pending) |
 | 08 | Security & Cloud Sync | Done (tasarım; crypto/provider/cihaz pending) |
-| 09 | Screen Specifications | In progress (PLAN-08) |
-| 10 | Testing & Quality Strategy | Pending |
-| 11 | Codex Integration Plan | Pending; faz bazlı Markdown blueprint ve ilerleme kontrolü zorunlu |
+| 09 | Screen Specifications | Done (PLAN-08 tasarım) |
+| 10 | Testing & Quality Strategy | In progress (PLAN-09A) |
+| 11 | Codex Integration Plan | Pending (PLAN-09B); faz bazlı Markdown blueprint ve ilerleme kontrolü zorunlu |
 | 12 | Implementation | Açık onaya kadar yasak |
 
 ## Dört limit reseti — önerilen hedef, garanti değil

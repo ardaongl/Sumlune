@@ -1,4 +1,4 @@
-# Kabul kriterleri — taslak
+# Kabul kriterleri — davranış sözleşmesi (ADR-0017); kalite gate PLAN-09A Proposed
 
 | Senaryo | Beklenen |
 |---|---|
@@ -42,4 +42,13 @@
 | Cloud offline/quota | Yerel işlevler devam, otomatik ücret yok. |
 | TR/EN ve tema | Kritik akışlarda taşma, okunamaz kontrast, eksik çeviri yok. |
 
-Sayısal performans/kapsam eşikleri teknik aşamada belirlenir. Bunlar test sonucu değildir.
+Ekran kabul kriterleri SCREEN_DETAILS (UX-01..25) ve teknik ADR'ler bağlayıcı. Sayısal performans/coverage ve risk test mapping [QUALITY_MATRIX](../engineering/QUALITY_MATRIX.md), [TEST_STRATEGY](../engineering/TEST_STRATEGY.md) PLAN-09A Proposed. Bunlar test sonucu değildir.
+
+| Ekran senaryosu | Beklenen |
+|---|---|
+| Onboarding atla / offline | Üyelik/izin zorunlu değil, boş Özet hesap CTA. |
+| Ekle sheet kapanış/back | Önceki tab korunur, dirty discard confirmation. |
+| Form hata/duplicate submit | Input korunur; invalid/submit disabled, tek commit. |
+| Global hide / screen reader | Tutar/derived chart ve accessible label ifşa yok; explicit edit exception. |
+| UX-25 cloud | Yalnız ilgili doğrulanmış fazda görünür; local core bağımsız. |
+| 200% font, keyboard, reduce motion | Kritik form/işlem okunur, save erişilebilir, no swipe-only action. |

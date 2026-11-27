@@ -10,9 +10,9 @@
 | PLAN-05 | Capture parser, bankalar, dedup, queue, otomasyon | PLAN-04 | Done (tasarım Accepted; banka/izin doğrulaması pending) |
 | PLAN-06 | Widget snapshot/deep link sözleşmesi | PLAN-04/05 | Done (tasarım Accepted; renderer/cihaz pending) |
 | PLAN-07 | Security, backup, cloud sync | PLAN-03/05/06 | Done (tasarım Accepted; doğrulama pending) |
-| PLAN-08 | Ekran, design system ve kabul kriterleri | PLAN-02..07 | In progress (Proposed) |
-| PLAN-09 | Test planı, görev bağımlılıkları, faz başına ayrıntılı Markdown goal prompt/blueprint, ilerleme kontrolü ve Codex handoff | PLAN-01..08 | Pending |
+| PLAN-08 | Ekran, design system ve kabul kriterleri | PLAN-02..07 | Done (tasarım Accepted; UI/device pending) |
+| PLAN-09 | 09A Testing & Quality, 09B faz başına ayrıntılı Markdown goal prompt/blueprint, progress kontrol ve Codex handoff | PLAN-01..08 | In progress (09A Proposed; 09B Pending) |
 | DEV-00 | SDK uyumu ve native/SQLCipher spike | Açık kodlama onayı | Not authorized |
 | DEV-01 | Dört reset implementation | DEV-00 + plan | Not authorized |
 
-PLAN-03 çekirdek şema ve FX/rounding/wire tamamlandı. PLAN-04A/B tamamlandı; PLAN-05 tamamlandı; PLAN-06 tamamlandı; PLAN-07 tamamlandı; PLAN-08 Screen Specifications aktif; ardından PLAN-09 test ve Codex blueprint. Koşullu stack doğrulaması DEV-00 kapsamındadır. Bu görevler uygulama kodlama izni değildir.
+PLAN-03 çekirdek şema ve FX/rounding/wire tamamlandı. PLAN-04A/B tamamlandı; PLAN-05 tamamlandı; PLAN-06 tamamlandı; PLAN-07 tamamlandı; PLAN-08 tamamlandı; PLAN-09A Testing & Quality aktif; ardından PLAN-09B Codex blueprint ve progress control. Koşullu stack doğrulaması DEV-00 kapsamındadır. Bu görevler uygulama kodlama izni değildir.

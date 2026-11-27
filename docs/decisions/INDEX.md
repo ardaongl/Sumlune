@@ -16,3 +16,4 @@
 - [ADR-0014 — Smart Capture Architecture](ADR-0014-smart-capture.md) — Accepted
 - [ADR-0015 — Native Widget Architecture](ADR-0015-native-widgets.md) — Accepted (renderer koşullu)
 - [ADR-0016 — Security & Phased Cloud Sync](ADR-0016-security-cloud-sync.md) — Accepted (teknik doğrulama şartlı)
+- [ADR-0017 — Screen Specifications & Pure Apple UI](ADR-0017-screen-design.md) — Accepted

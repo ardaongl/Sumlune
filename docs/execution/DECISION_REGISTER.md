@@ -18,7 +18,7 @@ Accepted yalnız açık onay; Accepted (koşullu) = tercih onaylı, teknik doğr
 | Bütçe ilkesi: en küçük doğru çözüm, gereksiz altyapı yok; onaylı kapsam korunur | Accepted (yönlendirme) | ADR-0006 |
 | Önerilen teknoloji yığını (SQLCipher, Drizzle, Zustand, TanStack Query, native stack dahil) | Accepted (koşullu) | ADR-0009 / TECH_STACK |
 | Paket sürümleri, platform uyumu, Expo Widgets desteği, Supabase nihai seçimi | Pending | TECH_STACK / ADR-0009 |
-| Tokenlar, ekran haritası, Inter | Proposed | DESIGN_SYSTEM |
+| Pure Apple tokenlar, 4 tab + Ekle, 25 ekran ailesi, ortak UI, Inter (lisans/cihaz şartlı) | Accepted | ADR-0017 / DESIGN_SYSTEM |
 | İngilizce kod, main, Conventional Commits | Proposed | GIT_WORKFLOW |
 | Smart Capture notification-first, encrypted queue, foreground drain, gated SMS/review, Akbank ve Ziraat ilk hedef | Accepted | ADR-0014 / SMART_CAPTURE |
 | Banka fixture, izin ve cihaz doğrulaması | Pending | SMART_CAPTURE / DEV-00 |
@@ -32,7 +32,8 @@ Accepted yalnız açık onay; Accepted (koşullu) = tercih onaylı, teknik doğr
 | Bütçe, birikim, safe-to-spend, nakit tahmini ve analiz | Accepted | ADR-0013 / FINANCIAL_INTELLIGENCE |
 | Yerel güvenlik, portable encrypted backup, C aşamalı cloud backup ve CAS snapshot sync | Accepted | ADR-0016 / SECURITY / SYNC |
 | Crypto/SDK, provider/kota/RLS ve cihaz doğrulaması | Pending | ADR-0016 / DEV-00 ve cloud fazı |
-| Ekran detayları, navigation, component/token sözleşmesi | Proposed | SCREENS / PLAN-08 |
+| Ekran detayları, navigation, component/token sözleşmesi | Accepted | ADR-0017 / SCREENS |
+| Risk temelli test, coverage, kalite kapısı ve cihaz matrisi | Proposed | TEST_STRATEGY / QUALITY_MATRIX / PLAN-09A |
 | Flutter ve eski Dart stack | Superseded | ADR-0008 |
 
 [ADR dizini](../decisions/INDEX.md). Yeni karar kabul edilince ilgili ADR ve tüketen dokümanlar birlikte güncellenir; eski karar silinmez, superseded işaretlenir.
