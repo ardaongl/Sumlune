@@ -20,8 +20,9 @@ Accepted yalnız açık onay; Accepted (koşullu) = tercih onaylı, teknik doğr
 | Paket sürümleri, platform uyumu, Expo Widgets desteği, Supabase nihai seçimi | Pending | TECH_STACK / ADR-0009 |
 | Tokenlar, ekran haritası, Inter | Proposed | DESIGN_SYSTEM |
 | İngilizce kod, main, Conventional Commits | Proposed | GIT_WORKFLOW |
-| Smart Capture teknik tasarımı | Proposed | SMART_CAPTURE / PLAN-05 |
-| Widget sözleşmesi | Pending | WIDGETS |
+| Smart Capture notification-first, encrypted queue, foreground drain, gated SMS/review, Akbank ve Ziraat ilk hedef | Accepted | ADR-0014 / SMART_CAPTURE |
+| Banka fixture, izin ve cihaz doğrulaması | Pending | SMART_CAPTURE / DEV-00 |
+| Widget snapshot, renderer, privacy ve deep link | Proposed | WIDGETS / PLAN-06 |
 | Money & Currency: minor units, güvenli INTEGER, TRY varsayılan, ISO 4217, değiştirilebilir raporlama, tarihsel kur, hibrit ücretsiz/manuel | Accepted | ADR-0010 / MONEY_CURRENCY |
 | FX clearing, HALF_UP, canonical integer-string wire, immutable rate snapshot | Accepted (devredilen teknik seçim) | ADR-0011 / MONEY_CURRENCY |
 | Ücretsiz kur sağlayıcısı ve adapter doğrulaması | Pending | MONEY_CURRENCY |

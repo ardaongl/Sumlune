@@ -12,8 +12,8 @@ Framework Accepted; aşağıdaki yığın teknik uyumluluk doğrulaması şartı
 | Form/validation | React Hook Form, Zod |
 | DB | expo-sqlite + SQLCipher, Drizzle ORM/migrations |
 | Para | ADR-0010: SQLite INTEGER minor units, JS safe integer; gerektiğinde BigInt, Decimal.js (uyum doğrulaması şartlı); wire sözleşmesi taslak |
-| Native | Expo Modules API, Kotlin, Swift; Android WorkManager/Headless JS spike |
-| Widget | SwiftUI/WidgetKit, Jetpack Glance; Expo Widgets desteği doğrulanacak |
+| Native | Expo Modules API, Kotlin, Swift; ADR-0014 foreground drain, WorkManager/Headless JS yalnız ihtiyaç/spike |
+| Widget | PLAN-06 Proposed: expo-widgets önce uyumluluk spike; SwiftUI/WidgetKit ve Jetpack Glance fallback; ortak snapshot |
 | Bildirim | expo-notifications |
 | Güvenlik | Expo SecureStore, Expo Local Authentication, OS Keystore/Keychain |
 | UI araçları | Reanimated, Gesture Handler, React Native SVG, Expo Haptics, Lucide React Native |

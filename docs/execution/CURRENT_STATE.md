@@ -1,6 +1,6 @@
 # Güncel durum — 2026-11-28
 
-**Phase:** Planning / Smart Capture Architecture. **Coding authorized:** No.
+**Phase:** Planning / Native Widget Architecture. **Coding authorized:** No.
 
 Sumlune, Android/iOS, RN + Expo + TypeScript, Pure Apple, 35 temel özellik + 4 giriş yöntemi, hibrit capture, local-first + opsiyonel bulut, Türkçe docs ve repo tabanlı karar süreci Accepted.
 
@@ -15,7 +15,9 @@ PLAN-04A tamamlandı: ADR-0012 Accepted, ortak payment/recurrence, 90 günlük h
 
 PLAN-04B tamamlandı: ADR-0013 Accepted, local deterministic budgets/savings/safe-to-spend/forecast/analytics; iki yeni tablo, ek sunucu/ücretli AI yok. Teknik detaylar devredilmiş kararla kesinleştirildi; test yok.
 
-**Aktif:** PLAN-05 [Smart Capture](../architecture/SMART_CAPTURE.md) teknik taslak Proposed. Android bank notification first, SMS ayrı izin/dağıtım doğrulaması, yerel parser/dedup/queue, hibrit otomasyon; banka önceliği ürün sahibinden. Sonra PLAN-06 Widget.
+PLAN-05 tamamlandı: ADR-0014 Accepted, Akbank ve Ziraat ilk entegrasyon hedefi, notification-first, encrypted structured queue/foreground drain, push expense opt-in auto, SMS ayrı izin ve review-only. Banka desteği, izinler, parser/cihaz testleri pending.
+
+**Aktif:** PLAN-06 [Native Widget Architecture](../architecture/WIDGETS.md) Proposed. Altı home-screen widget, tek privacy-filtered snapshot, Expo Widgets uyumluluk spike ve native fallback; sonra PLAN-07 Security & Cloud Sync.
 
 Ürün sahibi, teknik kararlar tamamlandığında her faz için ayrı Markdown goal prompt/blueprint ve ilerleme kontrol sistemi istedi. Yürütme gereksinimi [CODEX_EXECUTION_PROTOCOL](CODEX_EXECUTION_PROTOCOL.md) içinde; nihai faz dosyaları PLAN-09'da hazırlanacak.
 

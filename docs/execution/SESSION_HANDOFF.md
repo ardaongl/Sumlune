@@ -1,9 +1,9 @@
 # Oturum devri
 
-2026-11-28 — PLAN-04B onayı, PLAN-05 başlangıcı. Önceki commit 919772ce50ac939d874758901d680f1a8f5bccba. Kodlama yetkisi yok.
+2026-11-28 — PLAN-05 onayı, PLAN-06 başlangıcı. Önceki commit e6d430c7f093bd6797b6449d4cb228746de989ba. Kodlama yetkisi yok.
 
-ADR-0013 Accepted: yerel deterministik finansal zekâ; bütçe, birikim, conservative safe-to-spend, 30/60/90 forecast, ısı haritası, karşılaştırma, normalize abonelik maliyeti. budgets/savings_goals + account flag/schedule flag; ek backend/AI yok. Açık teknik detaylar ürün sahibi yetki devriyle belirlendi. Test yapılmadı.
+ADR-0014 Accepted: Akbank ve Ziraat ilk entegrasyon hedefleri (kapsam kararı, destek kanıtı değil). Notification-first, Kotlin native parser, structured encrypted queue, 7 gün/500 event, foreground drain, explicit push expense auto, SMS variant permission/policy gate ve review-only. Weak match inceleme; raw içerik saklanmaz. Hesap mapping, retention, idempotency, undo, native lifecycle ve security açık detayları SMART_CAPTURE içinde. Cihaz ve gerçek banka fixture testi yok.
 
-PLAN-05 aktif: SMART_CAPTURE teknik taslağı Proposed; ADR-0005 hibrit davranış Accepted. NotificationListenerService öncelikli, SMS RECEIVE_SMS ayrı policy/installer onayı, iOS manuel/şablon. Banka önceliği ürün sahibinden; gerçek maskeli/sentetik fixture ve cihaz testleri sonra. Ham içerik saklanmaz; native redaction/parser, encrypted structured queue, foreground drain öncelikli; headless spike ayrı. Git HEAD, AGENTS, CURRENT_STATE, DECISION_REGISTER, SMART_CAPTURE, PLATFORM_BRIDGE, SECURITY ve ADR-0005 oku. Onaydan sonra PLAN-06 Widget.
+PLAN-06 aktif: WIDGETS Proposed; altı home-screen widget, tek snapshot publisher, privacy default masked/explicit opt-in, deep link auth, OS refresh limitleri, Expo Widgets spike / Glance-WidgetKit fallback. Git HEAD, AGENTS, CURRENT_STATE, DECISION_REGISTER, WIDGETS, PLATFORM_BRIDGE, SECURITY, FINANCIAL_INTELLIGENCE oku. Sonra PLAN-07 Security & Cloud Sync. Provider/library/SDK, signing ve cihaz doğrulaması pending.
 
 Faz başına ayrı Markdown goal prompt/blueprint ve ilerleme kontrolü CODEX_EXECUTION_PROTOCOL içinde; nihai dosyalar PLAN-09. Uygulama kodu, paket kurulumu, build, cihaz testi yok.

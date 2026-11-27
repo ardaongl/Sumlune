@@ -10,3 +10,5 @@ Tehdit: cihaz kaybı, widget/lockscreen ifşası, izin, hassas log, şifresiz ba
 - Bulut E2EE hedefi; Supabase tek başına sağlamaz. Silme/export/kurtarma ayrı tasarım.
 
 Kişisel APK/Play SMS izinleri ve iOS signing koşulları doğrulanacak; review ve cihaz testi yok.
+
+ADR-0014: capture queue yalnız structured alan, Keystore-backed AES-GCM, HMAC ayrı key, 7 gün/500 event, pending 30 gün, no raw persist/log/network, review-first restore/rotation. Key lifecycle ve retention güvenlik planında tamamlanır. Widget snapshot privacy varsayılan masked ve explicit opt-in önerisi PLAN-06; launcher cache temizliği OS kontrolünde, kesin anlık gizleme vaat edilmez.

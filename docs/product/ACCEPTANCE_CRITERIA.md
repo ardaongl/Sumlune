@@ -19,6 +19,11 @@
 | Önceki dönem 0 veya negatif | Yüzde değişim yok; tutar farkı. |
 | Abonelik yıllık maliyeti | Aktif planlar normalize edilir, bilinmeyenler belirtilir. |
 | Aynı harcama SMS + bildirim | Çift kayıt yok; belirsiz eşleşme inceleme. |
+| İki aynı tutarlı gerçek alışveriş | Weak match ile silme/merge yok; inceleme. |
+| İzinli push, açık güvenilir kural | Doğrulanmış gider atomic commit; limit/çakışma/izin hatasında pending. |
+| SMS kaynaklı finansal aday | İlk sürüm review-only; izinsiz SMS build yok. |
+| Queue retry ve undo | Ack yalnız commit sonrası; replay duplicate değil; undo reversal ve allocation pasifleme. |
+| Raw içerik/OTP ve queue overflow | Raw disk/log/network yok; güvenli discard/count, kullanıcı uyarısı. |
 | OTP/başarısız işlem | Finansal kayıt yok; hassas içerik saklanmaz. |
 | İzin iptali | Manuel ve offline kullanım sürer. |
 | Döviz | Orijinal tutar ve kur korunur; eksik kur açıkça gösterilir. |

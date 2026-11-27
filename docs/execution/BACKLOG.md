@@ -7,12 +7,12 @@
 | PLAN-02 | Finansal invariants, money representation, hesap modeli | PLAN-01 | Done |
 | PLAN-03 | ERD, kolon, constraint, index, migration ve kesin FX/rounding/wire | PLAN-02 | Done (tasarım; DEV-00 doğrulaması pending) |
 | PLAN-04 | Payment & Recurrence (04A) + Financial Intelligence (04B) | PLAN-03 | Done (04A/04B tasarım Accepted) |
-| PLAN-05 | Capture parser, bankalar, dedup, queue, otomasyon | PLAN-04 | In progress (Proposed) |
-| PLAN-06 | Widget snapshot/deep link sözleşmesi | PLAN-02 | Pending |
+| PLAN-05 | Capture parser, bankalar, dedup, queue, otomasyon | PLAN-04 | Done (tasarım Accepted; banka/izin doğrulaması pending) |
+| PLAN-06 | Widget snapshot/deep link sözleşmesi | PLAN-04/05 | In progress (Proposed) |
 | PLAN-07 | Security, backup, cloud sync | PLAN-03/05/06 | Pending |
 | PLAN-08 | Ekran ve kabul kriterleri | PLAN-02/04 | Pending |
 | PLAN-09 | Test planı, görev bağımlılıkları, faz başına ayrıntılı Markdown goal prompt/blueprint, ilerleme kontrolü ve Codex handoff | PLAN-01..08 | Pending |
 | DEV-00 | SDK uyumu ve native/SQLCipher spike | Açık kodlama onayı | Not authorized |
 | DEV-01 | Dört reset implementation | DEV-00 + plan | Not authorized |
 
-PLAN-03 çekirdek şema ve FX/rounding/wire tamamlandı. PLAN-04A/B tamamlandı; PLAN-05 Smart Capture aktif, ardından PLAN-06 Widget. Koşullu stack doğrulaması DEV-00 kapsamındadır. Bu görevler uygulama kodlama izni değildir.
+PLAN-03 çekirdek şema ve FX/rounding/wire tamamlandı. PLAN-04A/B tamamlandı; PLAN-05 tamamlandı; PLAN-06 Widget aktif, ardından PLAN-07 Security & Cloud Sync. Koşullu stack doğrulaması DEV-00 kapsamındadır. Bu görevler uygulama kodlama izni değildir.
