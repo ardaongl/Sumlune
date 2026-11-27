@@ -1,6 +1,6 @@
 # Güncel durum — 2026-11-28
 
-**Phase:** Planning / Testing & Quality Strategy. **Coding authorized:** No.
+**Phase:** Planning / Codex Phase Blueprints & Progress Control. **Coding authorized:** No.
 
 Sumlune, Android/iOS, RN + Expo + TypeScript, Pure Apple, 35 temel özellik + 4 giriş yöntemi, hibrit capture, local-first + opsiyonel bulut, Türkçe docs ve repo tabanlı karar süreci Accepted.
 
@@ -23,7 +23,9 @@ PLAN-07 tamamlandı: ADR-0016 Accepted, local SQLCipher + ayrı biometric gate, 
 
 PLAN-08 tamamlandı: ADR-0017 Accepted, 4 içerik tabı + Ekle aksiyonu, 25 ekran ailesi, Pure Apple tokenlar, ortak UI, TR/EN, light/dark/system, erişilebilirlik. Gerçek UI/render/device doğrulaması yok.
 
-**Aktif:** PLAN-09A [Testing & Quality](../engineering/TEST_STRATEGY.md) Proposed; risk temelli test, critical matrix, coverage, low-cost CI, cihaz ve performance targets. Onay sonrası PLAN-09B nihai Codex goal prompts/blueprints ve progress kontrol. Kodlama yetkisi yok.
+PLAN-09A tamamlandı: ADR-0018 Accepted, risk-temelli test, 38 Q grubu, core >=95% lines / >=90% branches, mandatory gates, düşük maliyetli CI ve cihaz/performance targets. Test çalıştırılmadı.
+
+**Aktif:** PLAN-09B bağımsız ayrıntılı phase blueprint ve progress kontrol. Kodlama yetkisi yok.
 
 Ürün sahibi, teknik kararlar tamamlandığında her faz için ayrı Markdown goal prompt/blueprint ve ilerleme kontrol sistemi istedi. Yürütme gereksinimi [CODEX_EXECUTION_PROTOCOL](CODEX_EXECUTION_PROTOCOL.md) içinde; nihai faz dosyaları PLAN-09'da hazırlanacak.
 

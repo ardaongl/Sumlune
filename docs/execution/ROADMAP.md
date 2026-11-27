@@ -11,8 +11,8 @@
 | 07 | Native Widget Architecture | Done (tasarım; renderer/cihaz pending) |
 | 08 | Security & Cloud Sync | Done (tasarım; crypto/provider/cihaz pending) |
 | 09 | Screen Specifications | Done (PLAN-08 tasarım) |
-| 10 | Testing & Quality Strategy | In progress (PLAN-09A) |
-| 11 | Codex Integration Plan | Pending (PLAN-09B); faz bazlı Markdown blueprint ve ilerleme kontrolü zorunlu |
+| 10 | Testing & Quality Strategy | Done (ADR-0018; testler henüz Not run) |
+| 11 | Codex Integration Plan | In progress (PLAN-09B); faz bazlı Markdown blueprint ve ilerleme kontrolü zorunlu |
 | 12 | Implementation | Açık onaya kadar yasak |
 
 ## Dört limit reseti — önerilen hedef, garanti değil

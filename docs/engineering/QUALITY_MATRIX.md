@@ -1,4 +1,4 @@
-# Quality Matrix — PLAN-09A / Proposed
+# Quality Matrix — PLAN-09A / Accepted (ADR-0018)
 
 ID'ler blueprint task/acceptance evidence bağlantısı için stabil. Bu matris minimum mandatory behavior; ilgili ADR tüm edge case'leri ve UX-01..25 gereksinimlerini korur. Durumlar uygulama sonrası PROGRESS'e kaydedilir; şu an tüm testler Not run. P0 veri kaybı/yanlış ledger/secret leak/auth bypass; P1 kritik işlev bozuk, P2 noncritical UX/performance. Gated SMS/cloud/iOS feature kendi release gate'ine tabi; mock/policy-blocked başarı değildir.
 
@@ -45,3 +45,5 @@ ID'ler blueprint task/acceptance evidence bağlantısı için stabil. Bu matris 
 
 ## Evidence and mapping
 Each blueprint references its relevant Q IDs and UX IDs. Mandatory scenario evidence includes expected vs observed, command or manual steps, platform/SDK, result pass/fail/blocked/not-run, commit and sanitized artifact. All in-scope P0/P1 must pass, P2 targets measured and reviewed; no blanket coverage substitute. Test plan separate from test implementation. No tests run during planning.
+
+Q grubu ancak bütün mandatory alt kontroller kendi platform/kapsamında geçince Passed. Bir faz partial evidence sağlayabilir; phase blueprint hangi alt kapsamın o fazda zorunlu olduğunu gösterir. P3 kozmetik/minor, P2 ölçüm ve iyileştirme; P0/P1 açık bırakılmaz. Gated SMS/cloud/iOS için ayrı status; core Android başarılı diye bütün ürün veya iOS başarılı sayılmaz.

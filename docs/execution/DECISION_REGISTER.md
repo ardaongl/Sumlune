@@ -33,7 +33,8 @@ Accepted yalnız açık onay; Accepted (koşullu) = tercih onaylı, teknik doğr
 | Yerel güvenlik, portable encrypted backup, C aşamalı cloud backup ve CAS snapshot sync | Accepted | ADR-0016 / SECURITY / SYNC |
 | Crypto/SDK, provider/kota/RLS ve cihaz doğrulaması | Pending | ADR-0016 / DEV-00 ve cloud fazı |
 | Ekran detayları, navigation, component/token sözleşmesi | Accepted | ADR-0017 / SCREENS |
-| Risk temelli test, coverage, kalite kapısı ve cihaz matrisi | Proposed | TEST_STRATEGY / QUALITY_MATRIX / PLAN-09A |
+| Risk temelli test, 95% line/90% branch core, 38 Q grubu, kalite kapısı ve cihaz matrisi | Accepted | ADR-0018 / TEST_STRATEGY / QUALITY_MATRIX |
+| Nihai faz blueprint'leri ve progress kontrol sözleşmesi | In preparation | PLAN-09B |
 | Flutter ve eski Dart stack | Superseded | ADR-0008 |
 
 [ADR dizini](../decisions/INDEX.md). Yeni karar kabul edilince ilgili ADR ve tüketen dokümanlar birlikte güncellenir; eski karar silinmez, superseded işaretlenir.
