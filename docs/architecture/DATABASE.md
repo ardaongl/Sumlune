@@ -45,7 +45,7 @@ erDiagram
 |---|---|
 | Ortak ödeme (ADR-0012 Accepted) | payment_schedules, payment_occurrences, payment_allocations; [PAYMENT_RECURRENCE](PAYMENT_RECURRENCE.md) |
 | Taksit/borç | Ayrı tablo yalnız ortak schedule alanları yetmezse; asset/liability bağlantısı |
-| Bütçe/birikim | budgets, savings_goals; [FINANCIAL_INTELLIGENCE](FINANCIAL_INTELLIGENCE.md) Proposed; budget_periods ancak gerekli ise |
+| Bütçe/birikim | budgets, savings_goals; [FINANCIAL_INTELLIGENCE](FINANCIAL_INTELLIGENCE.md) ADR-0013 Accepted; budget_periods yok başlangıçta. accounts.include_in_spendable ve payment_schedules.required artımlı migration ile. |
 | Capture | capture_candidates, automation_rules, merchant_mappings; semantic dedup PLAN-05 |
 | Widget / analiz / takvim | Read model + minimum platform snapshot; ayrı finansal veri kaynağı yok |
 | Backup / sync | PLAN-07; sync_outbox/change_log yalnız protokol gerektirirse |

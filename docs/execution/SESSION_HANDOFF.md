@@ -1,9 +1,9 @@
 # Oturum devri
 
-2026-11-28 — PLAN-04A onayı, PLAN-04B başlangıcı. Önceki commit 3f95d3d55e62f26f9780af7f696f7afb4d3966f1. Kodlama yetkisi yok.
+2026-11-28 — PLAN-04B onayı, PLAN-05 başlangıcı. Önceki commit 919772ce50ac939d874758901d680f1a8f5bccba. Kodlama yetkisi yok.
 
-ADR-0012 Accepted: 90 günlük local recurrence, üç ortak ödeme tablosu, partial settlement ve kapasite kontrolü, reversal pasifleştirme, taksit kuruşu, kart statement remainder ile tek yükümlülük, principal/interest ayrımı, yerel hatırlatma. Açık teknik ayrıntılar ürün sahibinin bütçe odaklı yetki devriyle belirlendi. DDL/cihaz/OS testleri yok.
+ADR-0013 Accepted: yerel deterministik finansal zekâ; bütçe, birikim, conservative safe-to-spend, 30/60/90 forecast, ısı haritası, karşılaştırma, normalize abonelik maliyeti. budgets/savings_goals + account flag/schedule flag; ek backend/AI yok. Açık teknik detaylar ürün sahibi yetki devriyle belirlendi. Test yapılmadı.
 
-PLAN-04B aktif: [FINANCIAL_INTELLIGENCE](../architecture/FINANCIAL_INTELLIGENCE.md) Proposed. Git HEAD, AGENTS, CURRENT_STATE, DECISION_REGISTER, ADR-0012, PAYMENT_RECURRENCE ve FINANCIAL_INTELLIGENCE oku. Bütçe dönemi, birikim reserve, safe-to-spend ve deterministic 30/60/90 forecast, analiz/eksik kur davranışını görüş ve onayla; PLAN-05 Smart Capture sonraki aşama.
+PLAN-05 aktif: SMART_CAPTURE teknik taslağı Proposed; ADR-0005 hibrit davranış Accepted. NotificationListenerService öncelikli, SMS RECEIVE_SMS ayrı policy/installer onayı, iOS manuel/şablon. Banka önceliği ürün sahibinden; gerçek maskeli/sentetik fixture ve cihaz testleri sonra. Ham içerik saklanmaz; native redaction/parser, encrypted structured queue, foreground drain öncelikli; headless spike ayrı. Git HEAD, AGENTS, CURRENT_STATE, DECISION_REGISTER, SMART_CAPTURE, PLATFORM_BRIDGE, SECURITY ve ADR-0005 oku. Onaydan sonra PLAN-06 Widget.
 
-Faz başına ayrı Markdown goal prompt/blueprint ve ilerleme kontrolü CODEX_EXECUTION_PROTOCOL içinde; nihai dosyalar PLAN-09. Codex gelecekte Context Recovery → Task Selection → Implementation → Verification → Documentation → Git Checkpoint → Session Handoff. Uygulama kodu, paket kurulumu, build, cihaz testi yok.
+Faz başına ayrı Markdown goal prompt/blueprint ve ilerleme kontrolü CODEX_EXECUTION_PROTOCOL içinde; nihai dosyalar PLAN-09. Uygulama kodu, paket kurulumu, build, cihaz testi yok.

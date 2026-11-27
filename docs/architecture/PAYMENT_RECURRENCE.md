@@ -30,7 +30,7 @@ Taksit örneği: 12.000 TRY / 6 ay = 2.000 TRY aylık plan, alımda 12.000 TRY g
 Yerel bildirim, kullanıcı ayarlı vade öncesi/günü; izin yoksa takvim/in-app görünüm. Yakın zaman penceresi içinde OS kapasitesine göre sınırlı planlama, deterministic notification ID, plan değişimi/ödeme/iptalde cancel/reschedule. App resume reconciliation; exact-time ve teslim garantisi yok. Privacy mask; kilit ekranında varsayılan hassas tutar göstermeme. Takvim ve widget occurrence read model'i kullanır; ayrı tablo gereksiz.
 
 ## Finansal analizle sınır
-Gerçek gider = posting; ödenmemiş plan = tahmini gelecekteki cash flow. Abonelik yıllık maliyet normalize periyot ve currency; aktif/paused ayrımı. Kart borcu ve taksit schedule tek yükümlülük olarak sayılır. Safe-to-spend, bütçe ve forecast ayrıntıları [FINANCIAL_INTELLIGENCE](FINANCIAL_INTELLIGENCE.md) (PLAN-04B) içinde Proposed.
+Gerçek gider = posting; ödenmemiş plan = tahmini gelecekteki cash flow. Abonelik yıllık maliyet normalize periyot ve currency; aktif/paused ayrımı. Kart borcu ve taksit schedule tek yükümlülük olarak sayılır. Safe-to-spend, bütçe ve forecast ayrıntıları [FINANCIAL_INTELLIGENCE](FINANCIAL_INTELLIGENCE.md) (ADR-0013) içinde Accepted. required boolean default true; principal zorunlu; hesap sınıflandırması ve forecast ortak projection.
 
 ## Örnek testler
 31 Ocak/Şubat/Mart ve leap year; timezone/DST; tekrar generation, uzun offline; pause/cancel; vade tek başına posting yok; sabit/değişken ücret; duplicate settlement; kısmi/çoklu ödeme; reversal/reopen; taksit kuruşu, kart alımı + ödeme gideri bir kez; borç/alacak principal ve faiz; FX ödeme; kart bakiye ve taksit double count; bildirim izin/yeniden planlama. Hiçbiri henüz çalıştırılmadı.

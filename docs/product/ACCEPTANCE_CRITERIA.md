@@ -12,6 +12,12 @@
 | Ödeme iptali | Reversal ile allocation pasif ve vade yeniden açık. |
 | Kart ekstre ve taksit | Aynı principal bir kez planlanır; tek gerçek ödeme kapasitesini aşan allocation reddedilir. |
 | Borç alma/verme ve geri ödeme | Anapara gelir/gider değil; faiz ayrı. |
+| Bütçe geçmiş sürümü | Yeni ay limiti geçmişi değiştirmez. |
+| Birikim transferi | Gider yok; aynı bakiye iki kez sayılmaz. |
+| Safe-to-spend | Gelecek maaş/limit hariç; overdue ve unassigned debt bir kez; eksik tutar/kur incomplete. |
+| 30/60/90 forecast | Aynı seri, gerçekleşen bakiye tekrar sayılmaz, varsayımlar görünür. |
+| Önceki dönem 0 veya negatif | Yüzde değişim yok; tutar farkı. |
+| Abonelik yıllık maliyeti | Aktif planlar normalize edilir, bilinmeyenler belirtilir. |
 | Aynı harcama SMS + bildirim | Çift kayıt yok; belirsiz eşleşme inceleme. |
 | OTP/başarısız işlem | Finansal kayıt yok; hassas içerik saklanmaz. |
 | İzin iptali | Manuel ve offline kullanım sürer. |

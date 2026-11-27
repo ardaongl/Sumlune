@@ -1,6 +1,6 @@
 # Güncel durum — 2026-11-28
 
-**Phase:** Planning / Database & Financial Engine. **Coding authorized:** No.
+**Phase:** Planning / Smart Capture Architecture. **Coding authorized:** No.
 
 Sumlune, Android/iOS, RN + Expo + TypeScript, Pure Apple, 35 temel özellik + 4 giriş yöntemi, hibrit capture, local-first + opsiyonel bulut, Türkçe docs ve repo tabanlı karar süreci Accepted.
 
@@ -13,7 +13,9 @@ PLAN-03 tamamlandı: ADR-0011 Accepted, tek SQLite, finansal çekirdek, artıml�
 
 PLAN-04A tamamlandı: ADR-0012 Accepted, ortak payment/recurrence, 90 günlük horizon, kısmi ödeme, taksit, kart statement remainder, borç/alacak, yerel hatırlatma, allocation kapasitesi ve reversal. Teknik test yok.
 
-**Aktif:** PLAN-04B [Financial Intelligence Engine](../architecture/FINANCIAL_INTELLIGENCE.md) Proposed: aylık bütçe, kategori bütçesi, birikim, safe-to-spend, 30/60/90 nakit akışı, ısı haritası ve analiz. Onaydan sonra PLAN-05 Smart Capture.
+PLAN-04B tamamlandı: ADR-0013 Accepted, local deterministic budgets/savings/safe-to-spend/forecast/analytics; iki yeni tablo, ek sunucu/ücretli AI yok. Teknik detaylar devredilmiş kararla kesinleştirildi; test yok.
+
+**Aktif:** PLAN-05 [Smart Capture](../architecture/SMART_CAPTURE.md) teknik taslak Proposed. Android bank notification first, SMS ayrı izin/dağıtım doğrulaması, yerel parser/dedup/queue, hibrit otomasyon; banka önceliği ürün sahibinden. Sonra PLAN-06 Widget.
 
 Ürün sahibi, teknik kararlar tamamlandığında her faz için ayrı Markdown goal prompt/blueprint ve ilerleme kontrol sistemi istedi. Yürütme gereksinimi [CODEX_EXECUTION_PROTOCOL](CODEX_EXECUTION_PROTOCOL.md) içinde; nihai faz dosyaları PLAN-09'da hazırlanacak.
 
