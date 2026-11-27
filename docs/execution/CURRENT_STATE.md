@@ -11,7 +11,9 @@ PLAN-02 ana kararları tamamlandı: ADR-0010 Money & Currency Accepted; SQLite I
 
 PLAN-03 tamamlandı: ADR-0011 Accepted, tek SQLite, finansal çekirdek, artımlı migration ve ortak ödeme motoru. Devredilmiş teknik seçimler: FX clearing, HALF_UP, canonical integer-string wire, immutable rate snapshot, append reversal/replacement; kesin adapter ve DDL doğrulaması bekliyor.
 
-**Aktif:** PLAN-04 Payment & Recurrence Engine; [PAYMENT_RECURRENCE](../architecture/PAYMENT_RECURRENCE.md) Proposed. Abonelik, taksit, borç, kart ödeme ve hatırlatma detayları onaydan sonra Financial Intelligence. Diğer modüller kendi aşamalarında.
+PLAN-04A tamamlandı: ADR-0012 Accepted, ortak payment/recurrence, 90 günlük horizon, kısmi ödeme, taksit, kart statement remainder, borç/alacak, yerel hatırlatma, allocation kapasitesi ve reversal. Teknik test yok.
+
+**Aktif:** PLAN-04B [Financial Intelligence Engine](../architecture/FINANCIAL_INTELLIGENCE.md) Proposed: aylık bütçe, kategori bütçesi, birikim, safe-to-spend, 30/60/90 nakit akışı, ısı haritası ve analiz. Onaydan sonra PLAN-05 Smart Capture.
 
 Ürün sahibi, teknik kararlar tamamlandığında her faz için ayrı Markdown goal prompt/blueprint ve ilerleme kontrol sistemi istedi. Yürütme gereksinimi [CODEX_EXECUTION_PROTOCOL](CODEX_EXECUTION_PROTOCOL.md) içinde; nihai faz dosyaları PLAN-09'da hazırlanacak.
 

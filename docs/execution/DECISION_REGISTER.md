@@ -25,7 +25,8 @@ Accepted yalnız açık onay; Accepted (koşullu) = tercih onaylı, teknik doğr
 | FX clearing, HALF_UP, canonical integer-string wire, immutable rate snapshot | Accepted (devredilen teknik seçim) | ADR-0011 / MONEY_CURRENCY |
 | Ücretsiz kur sağlayıcısı ve adapter doğrulaması | Pending | MONEY_CURRENCY |
 | Tek SQLite, çekirdek şema, artımlı migration, ortak Payment Engine | Accepted | ADR-0011 / DATABASE |
-| Payment/recurrence/taksit/borç detayları | Proposed | PAYMENT_RECURRENCE / PLAN-04 |
+| Payment/recurrence/taksit/borç detayları, 90 günlük horizon, kısmi ödeme | Accepted | ADR-0012 / PAYMENT_RECURRENCE |
+| Bütçe, birikim, safe-to-spend, nakit tahmini ve analiz | Proposed | FINANCIAL_INTELLIGENCE / PLAN-04B |
 | E2EE, backup, conflict | Pending | SECURITY / SYNC |
 | Flutter ve eski Dart stack | Superseded | ADR-0008 |
 
